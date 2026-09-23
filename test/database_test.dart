@@ -7,6 +7,7 @@ import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:payslip_app/core/database.dart';
+import 'package:payslip_app/core/payroll.dart';
 import 'package:payslip_app/services.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
@@ -15,6 +16,9 @@ void main() {
   late AppDatabase database;
 
   setUpAll(() {
+    // Services.computeFor 会经 rootBundle 读 assets/ 下的费率表，
+    // 没有初始化绑定的话会拿不到资源。
+    TestWidgetsFlutterBinding.ensureInitialized();
     sqfliteFfiInit();
     databaseFactory = databaseFactoryFfi;
   });
@@ -47,7 +51,7 @@ void main() {
   test('保存设置后能读回新值（覆盖写）', () async {
     await database.db;
     await database.setSettings({
-      'company_name': 'Be Happy Staff Enterprise',
+      'company_name': 'Demo Salon Sdn Bhd',
       'company_reg_no': '202301234567',
       'smtp_host': 'smtp.gmail.com',
       'smtp_port': '587',
@@ -55,7 +59,7 @@ void main() {
     });
 
     expect(await database.getSetting('company_name'),
-        'Be Happy Staff Enterprise');
+        'Demo Salon Sdn Bhd');
     expect(await database.getSetting('company_reg_no'), '202301234567');
     expect(await database.getSetting('smtp_host'), 'smtp.gmail.com');
     expect(await database.getSetting('mail_pdf_password'), 'ic_last4');
@@ -135,8 +139,8 @@ void main() {
   test('员工与工资记录可写入并读回', () async {
     await database.db;
     final id = await database.addEmployee({
-      'name': 'Jackson Chang',
-      'nric': '900101-14-1234',
+      'name': 'Ahmad bin Ali',
+      'nric': '900101-14-0001',
       'employee_no': 'A01',
       'email': 'jackson@test.my',
       'basic_salary': 1700.0,
@@ -145,7 +149,7 @@ void main() {
     expect(id, greaterThan(0));
 
     final emp = await database.getEmployee(id);
-    expect(emp!['name'], 'Jackson Chang');
+    expect(emp!['name'], 'Ahmad bin Ali');
     expect((emp['basic_salary'] as num).toDouble(), 1700.0);
 
     await database.upsertRun({
@@ -182,8 +186,8 @@ void main() {
     setUp(() async {
       await database.db;
       empId = await database.addEmployee({
-        'name': 'Jackson Chang',
-        'nric': '900101-14-1234',
+        'name': 'Ahmad bin Ali',
+        'nric': '900101-14-0001',
         'employee_no': 'A01',
         'basic_salary': 1700.0,
         'active': 1,
@@ -258,6 +262,86 @@ void main() {
         'basic_salary': 1700.0,
       });
       expect(await database.runCountFor(empId), 3);
+    });
+  });
+
+  group('保存时不能抹掉停用项目的已存金额', () {
+    late Services svc;
+    late Map<String, dynamic> emp;
+
+    setUp(() async {
+      await database.db;
+      svc = Services(database);
+      final id = await database.addEmployee({
+        'name': 'Ahmad bin Ali',
+        'nric': '900101-14-0001',
+        'employee_no': 'D01',
+        'basic_salary': 1700.0,
+        'active': 1,
+      });
+      emp = (await database.getEmployee(id))!;
+    });
+
+    test('启用 Item A 时正常存下佣金', () async {
+      await database.setSettings({
+        'earnings_enabled': jsonEncode([true, true, true, false, false]),
+      });
+      final inp = const PayrollInput(basicSalary: 1700, itemA: 150);
+      final r = await svc.computeFor(inp);
+      await svc.saveRun(emp, 2026, 9, inp, r);
+
+      final run = await database.getRun((emp['id'] as num).toInt(), 2026, 9);
+      expect((run!['item_a'] as num).toDouble(), 150.0);
+    });
+
+    test('之后停用 Item A，再保存旧月份不会抹掉那笔佣金', () async {
+      // 1) 先启用并录一笔佣金
+      await database.setSettings({
+        'earnings_enabled': jsonEncode([true, true, true, false, false]),
+      });
+      final inp1 = const PayrollInput(basicSalary: 1700, itemA: 150);
+      await svc.saveRun(emp, 2026, 9, inp1, await svc.computeFor(inp1));
+
+      // 2) 设置里把 Item A 关掉 —— 界面上这个字段会隐藏，
+      //    用户不可能再去改它
+      await database.setSettings({
+        'earnings_enabled': jsonEncode([true, true, false, false, false]),
+      });
+
+      // 3) 用户回到这个旧月份点保存。表单里读到的是空 → 0
+      final inp2 = const PayrollInput(basicSalary: 1700);
+      await svc.saveRun(emp, 2026, 9, inp2, await svc.computeFor(inp2));
+
+      // 4) 那笔佣金必须还在
+      final run = await database.getRun((emp['id'] as num).toInt(), 2026, 9);
+      expect((run!['item_a'] as num).toDouble(), 150.0,
+          reason: '停用的项目在界面上是隐藏的，保存不该把已存金额清零');
+    });
+
+    test('用户主动把项目改成别的金额时，新值要生效', () async {
+      await database.setSettings({
+        'earnings_enabled': jsonEncode([true, true, true, false, false]),
+      });
+      final a = const PayrollInput(basicSalary: 1700, itemA: 150);
+      await svc.saveRun(emp, 2026, 9, a, await svc.computeFor(a));
+
+      // 用户把佣金改成 300 —— 应该覆盖，不是保留 150
+      final b = const PayrollInput(basicSalary: 1700, itemA: 300);
+      await svc.saveRun(emp, 2026, 9, b, await svc.computeFor(b));
+
+      final run = await database.getRun((emp['id'] as num).toInt(), 2026, 9);
+      expect((run!['item_a'] as num).toDouble(), 300.0);
+    });
+
+    test('新月份本来就没有值，保存后仍是 0（防护不误伤）', () async {
+      await database.setSettings({
+        'earnings_enabled': jsonEncode([true, true, false, false, false]),
+      });
+      final inp = const PayrollInput(basicSalary: 1700);
+      await svc.saveRun(emp, 2026, 11, inp, await svc.computeFor(inp));
+
+      final run = await database.getRun((emp['id'] as num).toInt(), 2026, 11);
+      expect((run!['item_a'] as num).toDouble(), 0.0);
     });
   });
 

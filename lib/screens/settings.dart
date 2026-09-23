@@ -487,7 +487,7 @@ class _SettingsScreenState extends State<SettingsScreen>
           style: TextStyle(
               fontSize: 12, color: theme.colorScheme.onSurfaceVariant));
     }
-    const sample = '900101-14-1234';
+    const sample = '900101-14-0001';
     final digits = sample.replaceAll(RegExp(r'[^0-9]'), '');
     final n = _pdfPasswordMode == 'ic_last4'
         ? 4

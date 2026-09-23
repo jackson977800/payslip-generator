@@ -103,7 +103,7 @@ Pick one rule:
 The screen shows a live example:
 
 ```
-🔒 Example — IC 900101-14-1234  →  password 141234
+🔒 Example — IC 900101-14-0001  →  password 141234
 ```
 
 Hyphens are **not** counted — digits only. If an employee has no IC on file, or
@@ -178,11 +178,11 @@ Auto calculation
 ### The preview screen
 
 ```
-Payslip_Jackson_Chang_Cheun_Seng_October_2026.pdf
+Payslip_Ahmad_bin_Ali_October_2026.pdf
 🔒 The preview below is unprotected so you can read it.
-   Jackson Chang Cheun Seng gets this file protected with password: 141234
+   Ahmad bin Ali gets this file protected with password: 141234
    ┌────────────────────────────────────┐
-   │  Email to jackson@behappy.com.my   │
+   │  Email to ahmad@example.com   │
    └────────────────────────────────────┘
    [ Share protected ]  [ Unprotected ]
 ```
@@ -225,10 +225,10 @@ October 2026
 2 payslip(s) generated  ·  2 emailed
 Tap any row to view, email or share that payslip.
 ─────────────────────────────────────────────────
-📧 Jackson Chang Cheun Seng     RM 1,489.10
-   Emailed to jackson@behappy.com.my              ›
-📧 Lim Mei Ling                 RM 1,926.80
-   Emailed to mei@behappy.com.my                  ›
+📧 Ahmad bin Ali     RM 1,489.10
+   Emailed to ahmad@example.com              ›
+📧 Priya Ramasamy                 RM 1,926.80
+   Emailed to priya@example.com                  ›
 ─────────────────────────────────────────────────
 [ Done ]
 ```
@@ -248,16 +248,16 @@ Tap **History**. Records are grouped by month:
 
 ```
 October 2026                        2 record(s)
-  Jackson Chang Cheun Seng  A01   RM 1,489.10  ›
-  Lim Mei Ling              A02   RM 1,926.80  ›
+  Ahmad bin Ali  A01   RM 1,489.10  ›
+  Priya Ramasamy              A02   RM 1,926.80  ›
 September 2026                      1 record(s)
-  Jackson Chang Cheun Seng  A01   RM 1,607.40  ›
+  Ahmad bin Ali  A01   RM 1,607.40  ›
 ```
 
 **Tap a row** for the full breakdown:
 
 ```
-Jackson Chang Cheun Seng
+Ahmad bin Ali
 September 2026  ·  A01
 ──────────────────────────────
 Earnings

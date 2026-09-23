@@ -133,14 +133,14 @@ void main() {
   test('校验规则', () {
     expect(validatePayslip('', 2026, 9, PayrollInput(basicSalary: 1700)),
         isNotEmpty);
-    expect(validatePayslip('Jackson', null, 9, PayrollInput(basicSalary: 1700)),
+    expect(validatePayslip('Ahmad', null, 9, PayrollInput(basicSalary: 1700)),
         isNotEmpty);
-    expect(validatePayslip('Jackson', 2026, 9, PayrollInput()), isNotEmpty);
-    expect(validatePayslip('Jackson', 2026, 9, PayrollInput(basicSalary: 1700)),
+    expect(validatePayslip('Ahmad', 2026, 9, PayrollInput()), isNotEmpty);
+    expect(validatePayslip('Ahmad', 2026, 9, PayrollInput(basicSalary: 1700)),
         isEmpty);
     expect(
         validatePayslip(
-            'Jackson', 2026, 9, PayrollInput(basicSalary: 1700, unpaidLeave: -5)),
+            'Ahmad', 2026, 9, PayrollInput(basicSalary: 1700, unpaidLeave: -5)),
         isNotEmpty);
   });
 }

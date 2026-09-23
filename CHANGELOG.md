@@ -31,6 +31,13 @@ First production release. Signed with a release keystore.
 
 ### Fixed during development
 
+- **Re-saving an old period could silently erase a stored extra item.** The
+  `Show` checkbox hides that field on the Payroll page, and the calculation
+  zeroes disabled items. Because the record stores the *computed* values,
+  opening an old period and pressing Save wiped a commission that had been
+  entered while the item was enabled. `saveRun` now preserves a non-zero stored
+  value when the item is currently hidden — the user cannot have edited a field
+  they cannot see. Four tests cover this.
 - **Release APKs had no `INTERNET` permission.** Flutter's template declares it
   only under `src/debug` and `src/profile`. Without it every email fails on a
   release build.

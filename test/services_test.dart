@@ -27,8 +27,8 @@ void main() {
     test('已知变量被替换', () {
       final out = Services.renderTemplate(
           'Payslip {Month} {Year} - {Employee Name}',
-          {'Month': 'September', 'Year': '2026', 'Employee Name': 'Jackson'});
-      expect(out, 'Payslip September 2026 - Jackson');
+          {'Month': 'September', 'Year': '2026', 'Employee Name': 'Ahmad'});
+      expect(out, 'Payslip September 2026 - Ahmad');
     });
 
     test('未知变量原样保留，花括号不会抛异常', () {
@@ -82,8 +82,8 @@ void main() {
     }
 
     test('IC 取后 6 位数字，连字符不计入', () {
-      expect(derive('900101-14-1234', 6), '141234');
-      expect(derive('900101141234', 6), '141234');
+      expect(derive('900101-14-0001', 6), '140001');
+      expect(derive('900101140001', 6), '140001');
     });
 
     test('IC 缺失或过短时不加密', () {
@@ -93,7 +93,7 @@ void main() {
     });
 
     test('后 4 位', () {
-      expect(derive('900101-14-1234', 4), '1234');
+      expect(derive('900101-14-0001', 4), '0001');
     });
   });
 

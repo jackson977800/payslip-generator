@@ -34,8 +34,8 @@ r = PdfReader(PLAIN)
 check("页数为 1", len(r.pages) == 1, len(r.pages))
 check("未加密", not r.is_encrypted)
 text = r.pages[0].extract_text() or ""
-check("含公司名", "Be Happy Staff Enterprise" in text)
-check("含员工姓名", "Jackson Chang Cheun Seng" in text)
+check("含公司名", "Demo Salon Sdn Bhd" in text)
+check("含员工姓名", "Ahmad bin Ali" in text)
 check("含 NET SALARY", "NET SALARY" in text)
 check("含净工资 1,489.10", "1,489.10" in text)
 
@@ -54,7 +54,7 @@ res_good = good.decrypt("141234")
 check("正确密码解密成功", bool(res_good), res_good)
 if res_good:
     t = good.pages[0].extract_text() or ""
-    check("解密后可读出公司名", "Be Happy Staff Enterprise" in t)
+    check("解密后可读出公司名", "Demo Salon Sdn Bhd" in t)
     check("解密后可读出净工资", "1,489.10" in t)
     perms = good.user_access_permissions
     check("允许打印", bool(perms & UserAccessPermissions.PRINT), perms)

@@ -22,19 +22,19 @@ void main() {
 
     final data = PayslipData(
       company: {
-        'company_name': 'Be Happy Staff Enterprise',
+        'company_name': 'Demo Salon Sdn Bhd',
         'company_address': '12, Jalan Besar, 50000 Kuala Lumpur',
         'company_reg_no': '202301234567',
         'company_phone': '03-1234 5678',
-        'company_email': 'hr@behappy.com.my',
+        'company_email': 'hr@example.com',
       },
       employee: {
-        'name': 'Jackson Chang Cheun Seng',
-        'nric': '900101-14-1234',
+        'name': 'Ahmad bin Ali',
+        'nric': '900101-14-0001',
         'employee_no': 'A01',
         'job_title': 'Hairdresser',
         'department': 'Salon',
-        'epf_no': 'EPF123456',
+        'epf_no': 'EPF000001',
         'bank_name': 'MAYBANK',
         'bank_account': '1234567890',
       },
@@ -71,8 +71,8 @@ void main() {
     expect(_hasEncrypt(plain), isFalse, reason: '明文件不应含 /Encrypt');
     expect(_hasEncrypt(enc), isTrue, reason: '加密件必须含 /Encrypt');
 
-    expect(pdfFileName('Jackson Chang Cheun Seng', 9, 2026),
-        'Payslip_Jackson_Chang_Cheun_Seng_September_2026.pdf');
+    expect(pdfFileName('Ahmad bin Ali', 9, 2026),
+        'Payslip_Ahmad_bin_Ali_September_2026.pdf');
     // -0.0 必须显示为 0.00
     expect(money(-0.0), '0.00');
     expect(money(-150), '-150.00');

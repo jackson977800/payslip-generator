@@ -211,15 +211,29 @@ class Services {
 
   Future<void> saveRun(Map<String, dynamic> employee, int year, int month,
       PayrollInput inp, PayrollResult r) async {
+    final empId = (employee['id'] as num).toInt();
+
+    // 停用的收入项目在界面上是**隐藏**的，用户不可能去改它。
+    // 但 applyEnabled 会把停用项清零，而这里存的又是计算后的值 ——
+    // 于是「先启用录了佣金、之后在设置里关掉、再回来保存旧月份」
+    // 就会把历史记录里那笔佣金静默抹掉。
+    //
+    // 防护：项目当前停用、且表单值为 0 时，保留库里已有的值。
+    final existing = await db.getRun(empId, year, month);
+    double keep(String key, double inputValue) {
+      final stored = (existing?[key] as num?)?.toDouble() ?? 0;
+      return inputValue == 0 && stored != 0 ? stored : inputValue;
+    }
+
     await db.upsertRun({
-      'employee_id': (employee['id'] as num).toInt(),
+      'employee_id': empId,
       'period_year': year,
       'period_month': month,
       'basic_salary': r.basicSalary,
       'unpaid_leave': r.unpaidLeave,
-      'item_a': r.itemA,
-      'item_b': r.itemB,
-      'item_c': r.itemC,
+      'item_a': keep('item_a', r.itemA),
+      'item_b': keep('item_b', r.itemB),
+      'item_c': keep('item_c', r.itemC),
       'pcb': r.pcb,
       'advance': r.advance,
       'epf_base': r.epfBase,
@@ -252,7 +266,7 @@ class Services {
 
   /// 按设置从员工资料推导 PDF 密码；无法推导时返回空串（不加密）。
   ///
-  /// 马来西亚 IC 形如 900101-14-1234，先去掉非数字字符再取后 N 位 ——
+  /// 马来西亚 IC 形如 900101-14-0001，先去掉非数字字符再取后 N 位 ——
   /// 「后 6 位」指后 6 个**数字**，不能把连字符算进去。
   Future<String> pdfPassword(Map<String, dynamic> employee) async {
     final rule = await db.getSetting('mail_pdf_password');
