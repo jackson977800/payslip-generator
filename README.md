@@ -18,16 +18,21 @@
 
 ## 下载
 
+### ➡️ [**前往 Releases 页面下载**](https://github.com/jackson977800/payslip-generator/releases/latest)
+
 | 端 | 文件 | 说明 |
 |---|---|---|
-| Android | `PayslipGenerator-1.0.0.apk` | Android 7.0+ · arm64-v8a / armeabi-v7a / x86_64 |
-| Android | `payslip-generator-1.0.0.zip` | APK + 全部文档 |
-| Windows | — | 从源码构建，见 [构建指南](docs/BUILD.zh-CN.md) |
+| Android | `PayslipGenerator-1.0.0-android.apk` | Android 7.0+ · arm64-v8a / armeabi-v7a / x86_64 |
+| Windows | `Payslip-1.0.0-windows.exe` | 免安装单文件，双击即用 |
 
-安卓安装：把 APK 传到手机，点开，按提示允许「安装未知来源应用」。
+**安卓安装**：把 APK 传到手机 → 点开 → 按提示允许「安装未知来源应用」
 
-> APK 用**正式发布密钥**签名，不是调试密钥。
-> 想安装前确认的话，可以用 `apksigner verify --print-certs` 检查。
+**Windows**：双击 `Payslip-1.0.0-windows.exe` 直接运行。
+无需安装 Python 或任何依赖，不写注册表，删除文件即卸载。
+
+> 两个成品都经过验证：APK 用正式发布密钥签名（非调试密钥）；
+> EXE 的**冻结构建**跑过 77 项自检 —— 构建日志绿不代表能跑，
+> 只有打包后的 .exe 本身跑通才算数。
 
 ## 功能
 

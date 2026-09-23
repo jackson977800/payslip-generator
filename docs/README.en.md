@@ -19,17 +19,23 @@ engine and produce identical figures.
 
 ## Download
 
+### ➡️ [**Get the latest release**](https://github.com/jackson977800/payslip-generator/releases/latest)
+
 | Platform | File | Notes |
 |---|---|---|
-| Android | `PayslipGenerator-1.0.0.apk` | Android 7.0+ · arm64-v8a / armeabi-v7a / x86_64 |
-| Android | `payslip-generator-1.0.0.zip` | APK plus documentation |
-| Windows | — | Build from source; see [BUILD.md](BUILD.md) |
+| Android | `PayslipGenerator-1.0.0-android.apk` | Android 7.0+ · arm64-v8a / armeabi-v7a / x86_64 |
+| Windows | `Payslip-1.0.0-windows.exe` | Portable single file — double-click to run |
 
-Installing on Android: copy the APK to the phone, tap it, and allow *install
-from unknown sources* when prompted.
+**Android**: copy the APK to the phone, tap it, allow *install from unknown
+sources* when prompted.
 
-> The APK is signed with a release keystore, not a debug key. Verify with
-> `apksigner verify --print-certs` if you want to check before installing.
+**Windows**: double-click `Payslip-1.0.0-windows.exe`. No Python, no
+dependencies, no installer — it writes nothing to the registry, and deleting
+the file uninstalls it.
+
+> Both artifacts are verified. The APK is signed with a release keystore, not a
+> debug key. The EXE's **frozen build** passes 77 self-test checks — a green
+> build log proves nothing, only running the packaged `.exe` does.
 
 ## Features
 
