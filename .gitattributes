@@ -1,0 +1,24 @@
+# 统一换行符，避免在不同系统上产生无意义的整文件 diff。
+* text=auto eol=lf
+
+# Windows 专有的脚本保留 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制文件不做换行符转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.jks binary
+*.keystore binary
+*.zip binary
+*.apk binary
+*.aab binary
+
+# 锁文件与生成物：不要出现在 diff 统计里
+pubspec.lock linguist-generated=true
+*.g.dart linguist-generated=true

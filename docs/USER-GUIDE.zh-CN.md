@@ -160,6 +160,8 @@ Auto calculation
 
 > 雇主缴纳的部分**不从员工工资里扣**，列出来只是为了让你知道公司要出多少钱。
 
+![算薪页](images/screenshots/02-payroll.png)
+
 4. 底部两个按钮：
 
 | 按钮 | 作用 |
@@ -184,6 +186,8 @@ Payslip_Jackson_Chang_Cheun_Seng_October_2026.pdf
 - **Email to ...** —— 直接发给这个员工
 - **Share protected** —— 分享加密版（微信、WhatsApp、存到网盘都行）
 - **Unprotected** —— 分享不加密版（一般用不到）
+
+![PDF 预览页](images/screenshots/03-pdf-preview.png)
 
 ---
 
@@ -234,6 +238,8 @@ Tap any row to view, email or share that payslip.
 > 如果某人邮箱填错了发失败，改完员工邮箱后，点进那一行单独重发即可，
 > 不用重跑整批。
 
+![批量结果列表](images/screenshots/04-batch-result.png)
+
 ---
 
 ## 6. 查看历史记录
@@ -272,6 +278,8 @@ Employer contributions
 
 历史记录用的是**当时存档的数字**，不会因为你后来改了设置而变 ——
 已经发给员工的工资单，数字就不该再动了。
+
+![历史明细](images/screenshots/05-history-detail.png)
 
 ---
 
