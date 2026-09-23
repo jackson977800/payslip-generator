@@ -211,7 +211,15 @@ class AppTheme {
         shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(radiusSm)),
         side: BorderSide(color: border),
-        labelStyle: const TextStyle(fontSize: 11.5),
+        // 颜色必须显式给 —— 只写 fontSize 的话，Flutter 会**原样使用**
+        // 这个 style（不与 M3 默认值合并），color 变成 null，
+        // 真机上标签几乎看不见。
+        labelStyle: TextStyle(
+          fontSize: 11.5,
+          color: scheme.onSurfaceVariant,
+          fontWeight: FontWeight.w500,
+        ),
+        backgroundColor: scheme.surfaceContainerHighest,
         padding: const EdgeInsets.symmetric(horizontal: gapSm, vertical: 0),
       ),
 

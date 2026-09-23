@@ -465,7 +465,9 @@ class _SettingsScreenState extends State<SettingsScreen>
               '{PDF Password Note}',
             ]
                 .map((v) => Chip(
-                      label: Text(v, style: const TextStyle(fontSize: 11)),
+                      // 不要在这里写 TextStyle —— 会让 chipTheme 的
+                      // labelStyle 失效（颜色被覆盖成 null）。
+                      label: Text(v),
                       visualDensity: VisualDensity.compact,
                       materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
                     ))

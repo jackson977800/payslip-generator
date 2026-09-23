@@ -2,6 +2,40 @@
 
 All notable changes to this project.
 
+## [1.0.1] — 2026-09-23
+
+Bug fixes reported from real-device testing. Both platforms.
+
+### Android
+
+- **Variable tags in Settings → Email were almost invisible.** The chips
+  rendered with `color: null`. Cause: `chipTheme.labelStyle` supplied only a
+  `fontSize`, and Flutter uses that style **verbatim** rather than merging it
+  with the Material 3 default — so the resolved label colour was null. The
+  theme now sets an explicit colour, and the `TextStyle` that was overriding it
+  at the call site is gone. Locked in by three tests, one of which asserts a
+  WCAG contrast ratio above 3:1 against the chip background.
+
+### Windows
+
+- **"Show password" appeared to do nothing.** When a password was already
+  saved, the code wrote twelve literal bullet characters into the field as a
+  placeholder. Toggling the checkbox did switch the echo mode — but the field
+  content was fake bullets either way, so it looked identical. The field is now
+  left empty with a proper `placeholderText` hint, the checkbox is greyed out
+  while the field is empty, and the tooltip states plainly that a saved
+  password is encrypted and cannot be displayed. Covered by 15 checks in
+  `tools/test_show_password.py`.
+
+### Verified
+
+| | |
+|---|---|
+| Android unit tests | 44 passing |
+| Android APK | release-signed, `versionName 1.0.1`, installs and launches |
+| Windows frozen EXE | **77 / 77** self-test checks against the packaged `.exe` |
+| Windows source self-test | 77 / 77 |
+
 ## [1.0.0] — 2026-09-23
 
 First production release. Signed with a release keystore.
