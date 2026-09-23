@@ -1,0 +1,2809 @@
+[
+ {
+  "from": 0.01,
+  "to": 10.0,
+  "employer": 0.0,
+  "employee": 0.0,
+  "nil": true
+ },
+ {
+  "from": 10.01,
+  "to": 20.0,
+  "employer": 3.0,
+  "employee": 3.0,
+  "nil": false
+ },
+ {
+  "from": 20.01,
+  "to": 40.0,
+  "employer": 6.0,
+  "employee": 5.0,
+  "nil": false
+ },
+ {
+  "from": 40.01,
+  "to": 60.0,
+  "employer": 8.0,
+  "employee": 7.0,
+  "nil": false
+ },
+ {
+  "from": 60.01,
+  "to": 80.0,
+  "employer": 11.0,
+  "employee": 9.0,
+  "nil": false
+ },
+ {
+  "from": 80.01,
+  "to": 100.0,
+  "employer": 13.0,
+  "employee": 11.0,
+  "nil": false
+ },
+ {
+  "from": 100.01,
+  "to": 120.0,
+  "employer": 16.0,
+  "employee": 14.0,
+  "nil": false
+ },
+ {
+  "from": 120.01,
+  "to": 140.0,
+  "employer": 19.0,
+  "employee": 16.0,
+  "nil": false
+ },
+ {
+  "from": 140.01,
+  "to": 160.0,
+  "employer": 21.0,
+  "employee": 18.0,
+  "nil": false
+ },
+ {
+  "from": 160.01,
+  "to": 180.0,
+  "employer": 24.0,
+  "employee": 20.0,
+  "nil": false
+ },
+ {
+  "from": 180.01,
+  "to": 200.0,
+  "employer": 26.0,
+  "employee": 22.0,
+  "nil": false
+ },
+ {
+  "from": 200.01,
+  "to": 220.0,
+  "employer": 29.0,
+  "employee": 25.0,
+  "nil": false
+ },
+ {
+  "from": 220.01,
+  "to": 240.0,
+  "employer": 32.0,
+  "employee": 27.0,
+  "nil": false
+ },
+ {
+  "from": 240.01,
+  "to": 260.0,
+  "employer": 34.0,
+  "employee": 29.0,
+  "nil": false
+ },
+ {
+  "from": 260.01,
+  "to": 280.0,
+  "employer": 37.0,
+  "employee": 31.0,
+  "nil": false
+ },
+ {
+  "from": 280.01,
+  "to": 300.0,
+  "employer": 39.0,
+  "employee": 33.0,
+  "nil": false
+ },
+ {
+  "from": 300.01,
+  "to": 320.0,
+  "employer": 42.0,
+  "employee": 36.0,
+  "nil": false
+ },
+ {
+  "from": 320.01,
+  "to": 340.0,
+  "employer": 45.0,
+  "employee": 38.0,
+  "nil": false
+ },
+ {
+  "from": 340.01,
+  "to": 360.0,
+  "employer": 47.0,
+  "employee": 40.0,
+  "nil": false
+ },
+ {
+  "from": 360.01,
+  "to": 380.0,
+  "employer": 50.0,
+  "employee": 42.0,
+  "nil": false
+ },
+ {
+  "from": 380.01,
+  "to": 400.0,
+  "employer": 52.0,
+  "employee": 44.0,
+  "nil": false
+ },
+ {
+  "from": 400.01,
+  "to": 420.0,
+  "employer": 55.0,
+  "employee": 47.0,
+  "nil": false
+ },
+ {
+  "from": 420.01,
+  "to": 440.0,
+  "employer": 58.0,
+  "employee": 49.0,
+  "nil": false
+ },
+ {
+  "from": 440.01,
+  "to": 460.0,
+  "employer": 60.0,
+  "employee": 51.0,
+  "nil": false
+ },
+ {
+  "from": 460.01,
+  "to": 480.0,
+  "employer": 63.0,
+  "employee": 53.0,
+  "nil": false
+ },
+ {
+  "from": 480.01,
+  "to": 500.0,
+  "employer": 65.0,
+  "employee": 55.0,
+  "nil": false
+ },
+ {
+  "from": 500.01,
+  "to": 520.0,
+  "employer": 68.0,
+  "employee": 58.0,
+  "nil": false
+ },
+ {
+  "from": 520.01,
+  "to": 540.0,
+  "employer": 71.0,
+  "employee": 60.0,
+  "nil": false
+ },
+ {
+  "from": 540.01,
+  "to": 560.0,
+  "employer": 73.0,
+  "employee": 62.0,
+  "nil": false
+ },
+ {
+  "from": 560.01,
+  "to": 580.0,
+  "employer": 76.0,
+  "employee": 64.0,
+  "nil": false
+ },
+ {
+  "from": 580.01,
+  "to": 600.0,
+  "employer": 78.0,
+  "employee": 66.0,
+  "nil": false
+ },
+ {
+  "from": 600.01,
+  "to": 620.0,
+  "employer": 81.0,
+  "employee": 69.0,
+  "nil": false
+ },
+ {
+  "from": 620.01,
+  "to": 640.0,
+  "employer": 84.0,
+  "employee": 71.0,
+  "nil": false
+ },
+ {
+  "from": 640.01,
+  "to": 660.0,
+  "employer": 86.0,
+  "employee": 73.0,
+  "nil": false
+ },
+ {
+  "from": 660.01,
+  "to": 680.0,
+  "employer": 89.0,
+  "employee": 75.0,
+  "nil": false
+ },
+ {
+  "from": 680.01,
+  "to": 700.0,
+  "employer": 91.0,
+  "employee": 77.0,
+  "nil": false
+ },
+ {
+  "from": 700.01,
+  "to": 720.0,
+  "employer": 94.0,
+  "employee": 80.0,
+  "nil": false
+ },
+ {
+  "from": 720.01,
+  "to": 740.0,
+  "employer": 97.0,
+  "employee": 82.0,
+  "nil": false
+ },
+ {
+  "from": 740.01,
+  "to": 760.0,
+  "employer": 99.0,
+  "employee": 84.0,
+  "nil": false
+ },
+ {
+  "from": 760.01,
+  "to": 780.0,
+  "employer": 102.0,
+  "employee": 86.0,
+  "nil": false
+ },
+ {
+  "from": 780.01,
+  "to": 800.0,
+  "employer": 104.0,
+  "employee": 88.0,
+  "nil": false
+ },
+ {
+  "from": 800.01,
+  "to": 820.0,
+  "employer": 107.0,
+  "employee": 91.0,
+  "nil": false
+ },
+ {
+  "from": 820.01,
+  "to": 840.0,
+  "employer": 110.0,
+  "employee": 93.0,
+  "nil": false
+ },
+ {
+  "from": 840.01,
+  "to": 860.0,
+  "employer": 112.0,
+  "employee": 95.0,
+  "nil": false
+ },
+ {
+  "from": 860.01,
+  "to": 880.0,
+  "employer": 115.0,
+  "employee": 97.0,
+  "nil": false
+ },
+ {
+  "from": 880.01,
+  "to": 900.0,
+  "employer": 117.0,
+  "employee": 99.0,
+  "nil": false
+ },
+ {
+  "from": 900.01,
+  "to": 920.0,
+  "employer": 120.0,
+  "employee": 102.0,
+  "nil": false
+ },
+ {
+  "from": 920.01,
+  "to": 940.0,
+  "employer": 123.0,
+  "employee": 104.0,
+  "nil": false
+ },
+ {
+  "from": 940.01,
+  "to": 960.0,
+  "employer": 125.0,
+  "employee": 106.0,
+  "nil": false
+ },
+ {
+  "from": 960.01,
+  "to": 980.0,
+  "employer": 128.0,
+  "employee": 108.0,
+  "nil": false
+ },
+ {
+  "from": 980.01,
+  "to": 1000.0,
+  "employer": 130.0,
+  "employee": 110.0,
+  "nil": false
+ },
+ {
+  "from": 1000.01,
+  "to": 1020.0,
+  "employer": 133.0,
+  "employee": 113.0,
+  "nil": false
+ },
+ {
+  "from": 1020.01,
+  "to": 1040.0,
+  "employer": 136.0,
+  "employee": 115.0,
+  "nil": false
+ },
+ {
+  "from": 1040.01,
+  "to": 1060.0,
+  "employer": 138.0,
+  "employee": 117.0,
+  "nil": false
+ },
+ {
+  "from": 1060.01,
+  "to": 1080.0,
+  "employer": 141.0,
+  "employee": 119.0,
+  "nil": false
+ },
+ {
+  "from": 1080.01,
+  "to": 1100.0,
+  "employer": 143.0,
+  "employee": 121.0,
+  "nil": false
+ },
+ {
+  "from": 1100.01,
+  "to": 1120.0,
+  "employer": 146.0,
+  "employee": 124.0,
+  "nil": false
+ },
+ {
+  "from": 1120.01,
+  "to": 1140.0,
+  "employer": 149.0,
+  "employee": 126.0,
+  "nil": false
+ },
+ {
+  "from": 1140.01,
+  "to": 1160.0,
+  "employer": 151.0,
+  "employee": 128.0,
+  "nil": false
+ },
+ {
+  "from": 1160.01,
+  "to": 1180.0,
+  "employer": 154.0,
+  "employee": 130.0,
+  "nil": false
+ },
+ {
+  "from": 1180.01,
+  "to": 1200.0,
+  "employer": 156.0,
+  "employee": 132.0,
+  "nil": false
+ },
+ {
+  "from": 1200.01,
+  "to": 1220.0,
+  "employer": 159.0,
+  "employee": 135.0,
+  "nil": false
+ },
+ {
+  "from": 1220.01,
+  "to": 1240.0,
+  "employer": 162.0,
+  "employee": 137.0,
+  "nil": false
+ },
+ {
+  "from": 1240.01,
+  "to": 1260.0,
+  "employer": 164.0,
+  "employee": 139.0,
+  "nil": false
+ },
+ {
+  "from": 1260.01,
+  "to": 1280.0,
+  "employer": 167.0,
+  "employee": 141.0,
+  "nil": false
+ },
+ {
+  "from": 1280.01,
+  "to": 1300.0,
+  "employer": 169.0,
+  "employee": 143.0,
+  "nil": false
+ },
+ {
+  "from": 1300.01,
+  "to": 1320.0,
+  "employer": 172.0,
+  "employee": 146.0,
+  "nil": false
+ },
+ {
+  "from": 1320.01,
+  "to": 1340.0,
+  "employer": 175.0,
+  "employee": 148.0,
+  "nil": false
+ },
+ {
+  "from": 1340.01,
+  "to": 1360.0,
+  "employer": 177.0,
+  "employee": 150.0,
+  "nil": false
+ },
+ {
+  "from": 1360.01,
+  "to": 1380.0,
+  "employer": 180.0,
+  "employee": 152.0,
+  "nil": false
+ },
+ {
+  "from": 1380.01,
+  "to": 1400.0,
+  "employer": 182.0,
+  "employee": 154.0,
+  "nil": false
+ },
+ {
+  "from": 1400.01,
+  "to": 1420.0,
+  "employer": 185.0,
+  "employee": 157.0,
+  "nil": false
+ },
+ {
+  "from": 1420.01,
+  "to": 1440.0,
+  "employer": 188.0,
+  "employee": 159.0,
+  "nil": false
+ },
+ {
+  "from": 1440.01,
+  "to": 1460.0,
+  "employer": 190.0,
+  "employee": 161.0,
+  "nil": false
+ },
+ {
+  "from": 1460.01,
+  "to": 1480.0,
+  "employer": 193.0,
+  "employee": 163.0,
+  "nil": false
+ },
+ {
+  "from": 1480.01,
+  "to": 1500.0,
+  "employer": 195.0,
+  "employee": 165.0,
+  "nil": false
+ },
+ {
+  "from": 1500.01,
+  "to": 1520.0,
+  "employer": 198.0,
+  "employee": 168.0,
+  "nil": false
+ },
+ {
+  "from": 1520.01,
+  "to": 1540.0,
+  "employer": 201.0,
+  "employee": 170.0,
+  "nil": false
+ },
+ {
+  "from": 1540.01,
+  "to": 1560.0,
+  "employer": 203.0,
+  "employee": 172.0,
+  "nil": false
+ },
+ {
+  "from": 1560.01,
+  "to": 1580.0,
+  "employer": 206.0,
+  "employee": 174.0,
+  "nil": false
+ },
+ {
+  "from": 1580.01,
+  "to": 1600.0,
+  "employer": 208.0,
+  "employee": 176.0,
+  "nil": false
+ },
+ {
+  "from": 1600.01,
+  "to": 1620.0,
+  "employer": 211.0,
+  "employee": 179.0,
+  "nil": false
+ },
+ {
+  "from": 1620.01,
+  "to": 1640.0,
+  "employer": 214.0,
+  "employee": 181.0,
+  "nil": false
+ },
+ {
+  "from": 1640.01,
+  "to": 1660.0,
+  "employer": 216.0,
+  "employee": 183.0,
+  "nil": false
+ },
+ {
+  "from": 1660.01,
+  "to": 1680.0,
+  "employer": 219.0,
+  "employee": 185.0,
+  "nil": false
+ },
+ {
+  "from": 1680.01,
+  "to": 1700.0,
+  "employer": 221.0,
+  "employee": 187.0,
+  "nil": false
+ },
+ {
+  "from": 1700.01,
+  "to": 1720.0,
+  "employer": 224.0,
+  "employee": 190.0,
+  "nil": false
+ },
+ {
+  "from": 1720.01,
+  "to": 1740.0,
+  "employer": 227.0,
+  "employee": 192.0,
+  "nil": false
+ },
+ {
+  "from": 1740.01,
+  "to": 1760.0,
+  "employer": 229.0,
+  "employee": 194.0,
+  "nil": false
+ },
+ {
+  "from": 1760.01,
+  "to": 1780.0,
+  "employer": 232.0,
+  "employee": 196.0,
+  "nil": false
+ },
+ {
+  "from": 1780.01,
+  "to": 1800.0,
+  "employer": 234.0,
+  "employee": 198.0,
+  "nil": false
+ },
+ {
+  "from": 1800.01,
+  "to": 1820.0,
+  "employer": 237.0,
+  "employee": 201.0,
+  "nil": false
+ },
+ {
+  "from": 1820.01,
+  "to": 1840.0,
+  "employer": 240.0,
+  "employee": 203.0,
+  "nil": false
+ },
+ {
+  "from": 1840.01,
+  "to": 1860.0,
+  "employer": 242.0,
+  "employee": 205.0,
+  "nil": false
+ },
+ {
+  "from": 1860.01,
+  "to": 1880.0,
+  "employer": 245.0,
+  "employee": 207.0,
+  "nil": false
+ },
+ {
+  "from": 1880.01,
+  "to": 1900.0,
+  "employer": 247.0,
+  "employee": 209.0,
+  "nil": false
+ },
+ {
+  "from": 1900.01,
+  "to": 1920.0,
+  "employer": 250.0,
+  "employee": 212.0,
+  "nil": false
+ },
+ {
+  "from": 1920.01,
+  "to": 1940.0,
+  "employer": 253.0,
+  "employee": 214.0,
+  "nil": false
+ },
+ {
+  "from": 1940.01,
+  "to": 1960.0,
+  "employer": 255.0,
+  "employee": 216.0,
+  "nil": false
+ },
+ {
+  "from": 1960.01,
+  "to": 1980.0,
+  "employer": 258.0,
+  "employee": 218.0,
+  "nil": false
+ },
+ {
+  "from": 1980.01,
+  "to": 2000.0,
+  "employer": 260.0,
+  "employee": 220.0,
+  "nil": false
+ },
+ {
+  "from": 2000.01,
+  "to": 2020.0,
+  "employer": 263.0,
+  "employee": 223.0,
+  "nil": false
+ },
+ {
+  "from": 2020.01,
+  "to": 2040.0,
+  "employer": 266.0,
+  "employee": 225.0,
+  "nil": false
+ },
+ {
+  "from": 2040.01,
+  "to": 2060.0,
+  "employer": 268.0,
+  "employee": 227.0,
+  "nil": false
+ },
+ {
+  "from": 2060.01,
+  "to": 2080.0,
+  "employer": 271.0,
+  "employee": 229.0,
+  "nil": false
+ },
+ {
+  "from": 2080.01,
+  "to": 2100.0,
+  "employer": 273.0,
+  "employee": 231.0,
+  "nil": false
+ },
+ {
+  "from": 2100.01,
+  "to": 2120.0,
+  "employer": 276.0,
+  "employee": 234.0,
+  "nil": false
+ },
+ {
+  "from": 2120.01,
+  "to": 2140.0,
+  "employer": 279.0,
+  "employee": 236.0,
+  "nil": false
+ },
+ {
+  "from": 2140.01,
+  "to": 2160.0,
+  "employer": 281.0,
+  "employee": 238.0,
+  "nil": false
+ },
+ {
+  "from": 2160.01,
+  "to": 2180.0,
+  "employer": 284.0,
+  "employee": 240.0,
+  "nil": false
+ },
+ {
+  "from": 2180.01,
+  "to": 2200.0,
+  "employer": 286.0,
+  "employee": 242.0,
+  "nil": false
+ },
+ {
+  "from": 2200.01,
+  "to": 2220.0,
+  "employer": 289.0,
+  "employee": 245.0,
+  "nil": false
+ },
+ {
+  "from": 2220.01,
+  "to": 2240.0,
+  "employer": 292.0,
+  "employee": 247.0,
+  "nil": false
+ },
+ {
+  "from": 2240.01,
+  "to": 2260.0,
+  "employer": 294.0,
+  "employee": 249.0,
+  "nil": false
+ },
+ {
+  "from": 2260.01,
+  "to": 2280.0,
+  "employer": 297.0,
+  "employee": 251.0,
+  "nil": false
+ },
+ {
+  "from": 2280.01,
+  "to": 2300.0,
+  "employer": 299.0,
+  "employee": 253.0,
+  "nil": false
+ },
+ {
+  "from": 2300.01,
+  "to": 2320.0,
+  "employer": 302.0,
+  "employee": 256.0,
+  "nil": false
+ },
+ {
+  "from": 2320.01,
+  "to": 2340.0,
+  "employer": 305.0,
+  "employee": 258.0,
+  "nil": false
+ },
+ {
+  "from": 2340.01,
+  "to": 2360.0,
+  "employer": 307.0,
+  "employee": 260.0,
+  "nil": false
+ },
+ {
+  "from": 2360.01,
+  "to": 2380.0,
+  "employer": 310.0,
+  "employee": 262.0,
+  "nil": false
+ },
+ {
+  "from": 2380.01,
+  "to": 2400.0,
+  "employer": 312.0,
+  "employee": 264.0,
+  "nil": false
+ },
+ {
+  "from": 2400.01,
+  "to": 2420.0,
+  "employer": 315.0,
+  "employee": 267.0,
+  "nil": false
+ },
+ {
+  "from": 2420.01,
+  "to": 2440.0,
+  "employer": 318.0,
+  "employee": 269.0,
+  "nil": false
+ },
+ {
+  "from": 2440.01,
+  "to": 2460.0,
+  "employer": 320.0,
+  "employee": 271.0,
+  "nil": false
+ },
+ {
+  "from": 2460.01,
+  "to": 2480.0,
+  "employer": 323.0,
+  "employee": 273.0,
+  "nil": false
+ },
+ {
+  "from": 2480.01,
+  "to": 2500.0,
+  "employer": 325.0,
+  "employee": 275.0,
+  "nil": false
+ },
+ {
+  "from": 2500.01,
+  "to": 2520.0,
+  "employer": 328.0,
+  "employee": 278.0,
+  "nil": false
+ },
+ {
+  "from": 2520.01,
+  "to": 2540.0,
+  "employer": 331.0,
+  "employee": 280.0,
+  "nil": false
+ },
+ {
+  "from": 2540.01,
+  "to": 2560.0,
+  "employer": 333.0,
+  "employee": 282.0,
+  "nil": false
+ },
+ {
+  "from": 2560.01,
+  "to": 2580.0,
+  "employer": 336.0,
+  "employee": 284.0,
+  "nil": false
+ },
+ {
+  "from": 2580.01,
+  "to": 2600.0,
+  "employer": 338.0,
+  "employee": 286.0,
+  "nil": false
+ },
+ {
+  "from": 2600.01,
+  "to": 2620.0,
+  "employer": 341.0,
+  "employee": 289.0,
+  "nil": false
+ },
+ {
+  "from": 2620.01,
+  "to": 2640.0,
+  "employer": 344.0,
+  "employee": 291.0,
+  "nil": false
+ },
+ {
+  "from": 2640.01,
+  "to": 2660.0,
+  "employer": 346.0,
+  "employee": 293.0,
+  "nil": false
+ },
+ {
+  "from": 2660.01,
+  "to": 2680.0,
+  "employer": 349.0,
+  "employee": 295.0,
+  "nil": false
+ },
+ {
+  "from": 2680.01,
+  "to": 2700.0,
+  "employer": 351.0,
+  "employee": 297.0,
+  "nil": false
+ },
+ {
+  "from": 2700.01,
+  "to": 2720.0,
+  "employer": 354.0,
+  "employee": 300.0,
+  "nil": false
+ },
+ {
+  "from": 2720.01,
+  "to": 2740.0,
+  "employer": 357.0,
+  "employee": 302.0,
+  "nil": false
+ },
+ {
+  "from": 2740.01,
+  "to": 2760.0,
+  "employer": 359.0,
+  "employee": 304.0,
+  "nil": false
+ },
+ {
+  "from": 2760.01,
+  "to": 2780.0,
+  "employer": 362.0,
+  "employee": 306.0,
+  "nil": false
+ },
+ {
+  "from": 2780.01,
+  "to": 2800.0,
+  "employer": 364.0,
+  "employee": 308.0,
+  "nil": false
+ },
+ {
+  "from": 2800.01,
+  "to": 2820.0,
+  "employer": 367.0,
+  "employee": 311.0,
+  "nil": false
+ },
+ {
+  "from": 2820.01,
+  "to": 2840.0,
+  "employer": 370.0,
+  "employee": 313.0,
+  "nil": false
+ },
+ {
+  "from": 2840.01,
+  "to": 2860.0,
+  "employer": 372.0,
+  "employee": 315.0,
+  "nil": false
+ },
+ {
+  "from": 2860.01,
+  "to": 2880.0,
+  "employer": 375.0,
+  "employee": 317.0,
+  "nil": false
+ },
+ {
+  "from": 2880.01,
+  "to": 2900.0,
+  "employer": 377.0,
+  "employee": 319.0,
+  "nil": false
+ },
+ {
+  "from": 2900.01,
+  "to": 2920.0,
+  "employer": 380.0,
+  "employee": 322.0,
+  "nil": false
+ },
+ {
+  "from": 2920.01,
+  "to": 2940.0,
+  "employer": 383.0,
+  "employee": 324.0,
+  "nil": false
+ },
+ {
+  "from": 2940.01,
+  "to": 2960.0,
+  "employer": 385.0,
+  "employee": 326.0,
+  "nil": false
+ },
+ {
+  "from": 2960.01,
+  "to": 2980.0,
+  "employer": 388.0,
+  "employee": 328.0,
+  "nil": false
+ },
+ {
+  "from": 2980.01,
+  "to": 3000.0,
+  "employer": 390.0,
+  "employee": 330.0,
+  "nil": false
+ },
+ {
+  "from": 3000.01,
+  "to": 3020.0,
+  "employer": 393.0,
+  "employee": 333.0,
+  "nil": false
+ },
+ {
+  "from": 3020.01,
+  "to": 3040.0,
+  "employer": 396.0,
+  "employee": 335.0,
+  "nil": false
+ },
+ {
+  "from": 3040.01,
+  "to": 3060.0,
+  "employer": 398.0,
+  "employee": 337.0,
+  "nil": false
+ },
+ {
+  "from": 3060.01,
+  "to": 3080.0,
+  "employer": 401.0,
+  "employee": 339.0,
+  "nil": false
+ },
+ {
+  "from": 3080.01,
+  "to": 3100.0,
+  "employer": 403.0,
+  "employee": 341.0,
+  "nil": false
+ },
+ {
+  "from": 3100.01,
+  "to": 3120.0,
+  "employer": 406.0,
+  "employee": 344.0,
+  "nil": false
+ },
+ {
+  "from": 3120.01,
+  "to": 3140.0,
+  "employer": 409.0,
+  "employee": 346.0,
+  "nil": false
+ },
+ {
+  "from": 3140.01,
+  "to": 3160.0,
+  "employer": 411.0,
+  "employee": 348.0,
+  "nil": false
+ },
+ {
+  "from": 3160.01,
+  "to": 3180.0,
+  "employer": 414.0,
+  "employee": 350.0,
+  "nil": false
+ },
+ {
+  "from": 3180.01,
+  "to": 3200.0,
+  "employer": 416.0,
+  "employee": 352.0,
+  "nil": false
+ },
+ {
+  "from": 3200.01,
+  "to": 3220.0,
+  "employer": 419.0,
+  "employee": 355.0,
+  "nil": false
+ },
+ {
+  "from": 3220.01,
+  "to": 3240.0,
+  "employer": 422.0,
+  "employee": 357.0,
+  "nil": false
+ },
+ {
+  "from": 3240.01,
+  "to": 3260.0,
+  "employer": 424.0,
+  "employee": 359.0,
+  "nil": false
+ },
+ {
+  "from": 3260.01,
+  "to": 3280.0,
+  "employer": 427.0,
+  "employee": 361.0,
+  "nil": false
+ },
+ {
+  "from": 3280.01,
+  "to": 3300.0,
+  "employer": 429.0,
+  "employee": 363.0,
+  "nil": false
+ },
+ {
+  "from": 3300.01,
+  "to": 3320.0,
+  "employer": 432.0,
+  "employee": 366.0,
+  "nil": false
+ },
+ {
+  "from": 3320.01,
+  "to": 3340.0,
+  "employer": 435.0,
+  "employee": 368.0,
+  "nil": false
+ },
+ {
+  "from": 3340.01,
+  "to": 3360.0,
+  "employer": 437.0,
+  "employee": 370.0,
+  "nil": false
+ },
+ {
+  "from": 3360.01,
+  "to": 3380.0,
+  "employer": 440.0,
+  "employee": 372.0,
+  "nil": false
+ },
+ {
+  "from": 3380.01,
+  "to": 3400.0,
+  "employer": 442.0,
+  "employee": 374.0,
+  "nil": false
+ },
+ {
+  "from": 3400.01,
+  "to": 3420.0,
+  "employer": 445.0,
+  "employee": 377.0,
+  "nil": false
+ },
+ {
+  "from": 3420.01,
+  "to": 3440.0,
+  "employer": 448.0,
+  "employee": 379.0,
+  "nil": false
+ },
+ {
+  "from": 3440.01,
+  "to": 3460.0,
+  "employer": 450.0,
+  "employee": 381.0,
+  "nil": false
+ },
+ {
+  "from": 3460.01,
+  "to": 3480.0,
+  "employer": 453.0,
+  "employee": 383.0,
+  "nil": false
+ },
+ {
+  "from": 3480.01,
+  "to": 3500.0,
+  "employer": 455.0,
+  "employee": 385.0,
+  "nil": false
+ },
+ {
+  "from": 3500.01,
+  "to": 3520.0,
+  "employer": 458.0,
+  "employee": 388.0,
+  "nil": false
+ },
+ {
+  "from": 3520.01,
+  "to": 3540.0,
+  "employer": 461.0,
+  "employee": 390.0,
+  "nil": false
+ },
+ {
+  "from": 3540.01,
+  "to": 3560.0,
+  "employer": 463.0,
+  "employee": 392.0,
+  "nil": false
+ },
+ {
+  "from": 3560.01,
+  "to": 3580.0,
+  "employer": 466.0,
+  "employee": 394.0,
+  "nil": false
+ },
+ {
+  "from": 3580.01,
+  "to": 3600.0,
+  "employer": 468.0,
+  "employee": 396.0,
+  "nil": false
+ },
+ {
+  "from": 3600.01,
+  "to": 3620.0,
+  "employer": 471.0,
+  "employee": 399.0,
+  "nil": false
+ },
+ {
+  "from": 3620.01,
+  "to": 3640.0,
+  "employer": 474.0,
+  "employee": 401.0,
+  "nil": false
+ },
+ {
+  "from": 3640.01,
+  "to": 3660.0,
+  "employer": 476.0,
+  "employee": 403.0,
+  "nil": false
+ },
+ {
+  "from": 3660.01,
+  "to": 3680.0,
+  "employer": 479.0,
+  "employee": 405.0,
+  "nil": false
+ },
+ {
+  "from": 3680.01,
+  "to": 3700.0,
+  "employer": 481.0,
+  "employee": 407.0,
+  "nil": false
+ },
+ {
+  "from": 3700.01,
+  "to": 3720.0,
+  "employer": 484.0,
+  "employee": 410.0,
+  "nil": false
+ },
+ {
+  "from": 3720.01,
+  "to": 3740.0,
+  "employer": 487.0,
+  "employee": 412.0,
+  "nil": false
+ },
+ {
+  "from": 3740.01,
+  "to": 3760.0,
+  "employer": 489.0,
+  "employee": 414.0,
+  "nil": false
+ },
+ {
+  "from": 3760.01,
+  "to": 3780.0,
+  "employer": 492.0,
+  "employee": 416.0,
+  "nil": false
+ },
+ {
+  "from": 3780.01,
+  "to": 3800.0,
+  "employer": 494.0,
+  "employee": 418.0,
+  "nil": false
+ },
+ {
+  "from": 3800.01,
+  "to": 3820.0,
+  "employer": 497.0,
+  "employee": 421.0,
+  "nil": false
+ },
+ {
+  "from": 3820.01,
+  "to": 3840.0,
+  "employer": 500.0,
+  "employee": 423.0,
+  "nil": false
+ },
+ {
+  "from": 3840.01,
+  "to": 3860.0,
+  "employer": 502.0,
+  "employee": 425.0,
+  "nil": false
+ },
+ {
+  "from": 3860.01,
+  "to": 3880.0,
+  "employer": 505.0,
+  "employee": 427.0,
+  "nil": false
+ },
+ {
+  "from": 3880.01,
+  "to": 3900.0,
+  "employer": 507.0,
+  "employee": 429.0,
+  "nil": false
+ },
+ {
+  "from": 3900.01,
+  "to": 3920.0,
+  "employer": 510.0,
+  "employee": 432.0,
+  "nil": false
+ },
+ {
+  "from": 3920.01,
+  "to": 3940.0,
+  "employer": 513.0,
+  "employee": 434.0,
+  "nil": false
+ },
+ {
+  "from": 3940.01,
+  "to": 3960.0,
+  "employer": 515.0,
+  "employee": 436.0,
+  "nil": false
+ },
+ {
+  "from": 3960.01,
+  "to": 3980.0,
+  "employer": 518.0,
+  "employee": 438.0,
+  "nil": false
+ },
+ {
+  "from": 3980.01,
+  "to": 4000.0,
+  "employer": 520.0,
+  "employee": 440.0,
+  "nil": false
+ },
+ {
+  "from": 4000.01,
+  "to": 4020.0,
+  "employer": 523.0,
+  "employee": 443.0,
+  "nil": false
+ },
+ {
+  "from": 4020.01,
+  "to": 4040.0,
+  "employer": 526.0,
+  "employee": 445.0,
+  "nil": false
+ },
+ {
+  "from": 4040.01,
+  "to": 4060.0,
+  "employer": 528.0,
+  "employee": 447.0,
+  "nil": false
+ },
+ {
+  "from": 4060.01,
+  "to": 4080.0,
+  "employer": 531.0,
+  "employee": 449.0,
+  "nil": false
+ },
+ {
+  "from": 4080.01,
+  "to": 4100.0,
+  "employer": 533.0,
+  "employee": 451.0,
+  "nil": false
+ },
+ {
+  "from": 4100.01,
+  "to": 4120.0,
+  "employer": 536.0,
+  "employee": 454.0,
+  "nil": false
+ },
+ {
+  "from": 4120.01,
+  "to": 4140.0,
+  "employer": 539.0,
+  "employee": 456.0,
+  "nil": false
+ },
+ {
+  "from": 4140.01,
+  "to": 4160.0,
+  "employer": 541.0,
+  "employee": 458.0,
+  "nil": false
+ },
+ {
+  "from": 4160.01,
+  "to": 4180.0,
+  "employer": 544.0,
+  "employee": 460.0,
+  "nil": false
+ },
+ {
+  "from": 4180.01,
+  "to": 4200.0,
+  "employer": 546.0,
+  "employee": 462.0,
+  "nil": false
+ },
+ {
+  "from": 4200.01,
+  "to": 4220.0,
+  "employer": 549.0,
+  "employee": 465.0,
+  "nil": false
+ },
+ {
+  "from": 4220.01,
+  "to": 4240.0,
+  "employer": 552.0,
+  "employee": 467.0,
+  "nil": false
+ },
+ {
+  "from": 4240.01,
+  "to": 4260.0,
+  "employer": 554.0,
+  "employee": 469.0,
+  "nil": false
+ },
+ {
+  "from": 4260.01,
+  "to": 4280.0,
+  "employer": 557.0,
+  "employee": 471.0,
+  "nil": false
+ },
+ {
+  "from": 4280.01,
+  "to": 4300.0,
+  "employer": 559.0,
+  "employee": 473.0,
+  "nil": false
+ },
+ {
+  "from": 4300.01,
+  "to": 4320.0,
+  "employer": 562.0,
+  "employee": 476.0,
+  "nil": false
+ },
+ {
+  "from": 4320.01,
+  "to": 4340.0,
+  "employer": 565.0,
+  "employee": 478.0,
+  "nil": false
+ },
+ {
+  "from": 4340.01,
+  "to": 4360.0,
+  "employer": 567.0,
+  "employee": 480.0,
+  "nil": false
+ },
+ {
+  "from": 4360.01,
+  "to": 4380.0,
+  "employer": 570.0,
+  "employee": 482.0,
+  "nil": false
+ },
+ {
+  "from": 4380.01,
+  "to": 4400.0,
+  "employer": 572.0,
+  "employee": 484.0,
+  "nil": false
+ },
+ {
+  "from": 4400.01,
+  "to": 4420.0,
+  "employer": 575.0,
+  "employee": 487.0,
+  "nil": false
+ },
+ {
+  "from": 4420.01,
+  "to": 4440.0,
+  "employer": 578.0,
+  "employee": 489.0,
+  "nil": false
+ },
+ {
+  "from": 4440.01,
+  "to": 4460.0,
+  "employer": 580.0,
+  "employee": 491.0,
+  "nil": false
+ },
+ {
+  "from": 4460.01,
+  "to": 4480.0,
+  "employer": 583.0,
+  "employee": 493.0,
+  "nil": false
+ },
+ {
+  "from": 4480.01,
+  "to": 4500.0,
+  "employer": 585.0,
+  "employee": 495.0,
+  "nil": false
+ },
+ {
+  "from": 4500.01,
+  "to": 4520.0,
+  "employer": 588.0,
+  "employee": 498.0,
+  "nil": false
+ },
+ {
+  "from": 4520.01,
+  "to": 4540.0,
+  "employer": 591.0,
+  "employee": 500.0,
+  "nil": false
+ },
+ {
+  "from": 4540.01,
+  "to": 4560.0,
+  "employer": 593.0,
+  "employee": 502.0,
+  "nil": false
+ },
+ {
+  "from": 4560.01,
+  "to": 4580.0,
+  "employer": 596.0,
+  "employee": 504.0,
+  "nil": false
+ },
+ {
+  "from": 4580.01,
+  "to": 4600.0,
+  "employer": 598.0,
+  "employee": 506.0,
+  "nil": false
+ },
+ {
+  "from": 4600.01,
+  "to": 4620.0,
+  "employer": 601.0,
+  "employee": 509.0,
+  "nil": false
+ },
+ {
+  "from": 4620.01,
+  "to": 4640.0,
+  "employer": 604.0,
+  "employee": 511.0,
+  "nil": false
+ },
+ {
+  "from": 4640.01,
+  "to": 4660.0,
+  "employer": 606.0,
+  "employee": 513.0,
+  "nil": false
+ },
+ {
+  "from": 4660.01,
+  "to": 4680.0,
+  "employer": 609.0,
+  "employee": 515.0,
+  "nil": false
+ },
+ {
+  "from": 4680.01,
+  "to": 4700.0,
+  "employer": 611.0,
+  "employee": 517.0,
+  "nil": false
+ },
+ {
+  "from": 4700.01,
+  "to": 4720.0,
+  "employer": 614.0,
+  "employee": 520.0,
+  "nil": false
+ },
+ {
+  "from": 4720.01,
+  "to": 4740.0,
+  "employer": 617.0,
+  "employee": 522.0,
+  "nil": false
+ },
+ {
+  "from": 4740.01,
+  "to": 4760.0,
+  "employer": 619.0,
+  "employee": 524.0,
+  "nil": false
+ },
+ {
+  "from": 4760.01,
+  "to": 4780.0,
+  "employer": 622.0,
+  "employee": 526.0,
+  "nil": false
+ },
+ {
+  "from": 4780.01,
+  "to": 4800.0,
+  "employer": 624.0,
+  "employee": 528.0,
+  "nil": false
+ },
+ {
+  "from": 4800.01,
+  "to": 4820.0,
+  "employer": 627.0,
+  "employee": 531.0,
+  "nil": false
+ },
+ {
+  "from": 4820.01,
+  "to": 4840.0,
+  "employer": 630.0,
+  "employee": 533.0,
+  "nil": false
+ },
+ {
+  "from": 4840.01,
+  "to": 4860.0,
+  "employer": 632.0,
+  "employee": 535.0,
+  "nil": false
+ },
+ {
+  "from": 4860.01,
+  "to": 4880.0,
+  "employer": 635.0,
+  "employee": 537.0,
+  "nil": false
+ },
+ {
+  "from": 4880.01,
+  "to": 4900.0,
+  "employer": 637.0,
+  "employee": 539.0,
+  "nil": false
+ },
+ {
+  "from": 4900.01,
+  "to": 4920.0,
+  "employer": 640.0,
+  "employee": 542.0,
+  "nil": false
+ },
+ {
+  "from": 4920.01,
+  "to": 4940.0,
+  "employer": 643.0,
+  "employee": 544.0,
+  "nil": false
+ },
+ {
+  "from": 4940.01,
+  "to": 4960.0,
+  "employer": 645.0,
+  "employee": 546.0,
+  "nil": false
+ },
+ {
+  "from": 4960.01,
+  "to": 4980.0,
+  "employer": 648.0,
+  "employee": 548.0,
+  "nil": false
+ },
+ {
+  "from": 4980.01,
+  "to": 5000.0,
+  "employer": 650.0,
+  "employee": 550.0,
+  "nil": false
+ },
+ {
+  "from": 5000.01,
+  "to": 5100.0,
+  "employer": 612.0,
+  "employee": 561.0,
+  "nil": false
+ },
+ {
+  "from": 5100.01,
+  "to": 5200.0,
+  "employer": 624.0,
+  "employee": 572.0,
+  "nil": false
+ },
+ {
+  "from": 5200.01,
+  "to": 5300.0,
+  "employer": 636.0,
+  "employee": 583.0,
+  "nil": false
+ },
+ {
+  "from": 5300.01,
+  "to": 5400.0,
+  "employer": 648.0,
+  "employee": 594.0,
+  "nil": false
+ },
+ {
+  "from": 5400.01,
+  "to": 5500.0,
+  "employer": 660.0,
+  "employee": 605.0,
+  "nil": false
+ },
+ {
+  "from": 5500.01,
+  "to": 5600.0,
+  "employer": 672.0,
+  "employee": 616.0,
+  "nil": false
+ },
+ {
+  "from": 5600.01,
+  "to": 5700.0,
+  "employer": 684.0,
+  "employee": 627.0,
+  "nil": false
+ },
+ {
+  "from": 5700.01,
+  "to": 5800.0,
+  "employer": 696.0,
+  "employee": 638.0,
+  "nil": false
+ },
+ {
+  "from": 5800.01,
+  "to": 5900.0,
+  "employer": 708.0,
+  "employee": 649.0,
+  "nil": false
+ },
+ {
+  "from": 5900.01,
+  "to": 6000.0,
+  "employer": 720.0,
+  "employee": 660.0,
+  "nil": false
+ },
+ {
+  "from": 6000.01,
+  "to": 6100.0,
+  "employer": 732.0,
+  "employee": 671.0,
+  "nil": false
+ },
+ {
+  "from": 6100.01,
+  "to": 6200.0,
+  "employer": 744.0,
+  "employee": 682.0,
+  "nil": false
+ },
+ {
+  "from": 6200.01,
+  "to": 6300.0,
+  "employer": 756.0,
+  "employee": 693.0,
+  "nil": false
+ },
+ {
+  "from": 6300.01,
+  "to": 6400.0,
+  "employer": 768.0,
+  "employee": 704.0,
+  "nil": false
+ },
+ {
+  "from": 6400.01,
+  "to": 6500.0,
+  "employer": 780.0,
+  "employee": 715.0,
+  "nil": false
+ },
+ {
+  "from": 6500.01,
+  "to": 6600.0,
+  "employer": 792.0,
+  "employee": 726.0,
+  "nil": false
+ },
+ {
+  "from": 6600.01,
+  "to": 6700.0,
+  "employer": 804.0,
+  "employee": 737.0,
+  "nil": false
+ },
+ {
+  "from": 6700.01,
+  "to": 6800.0,
+  "employer": 816.0,
+  "employee": 748.0,
+  "nil": false
+ },
+ {
+  "from": 6800.01,
+  "to": 6900.0,
+  "employer": 828.0,
+  "employee": 759.0,
+  "nil": false
+ },
+ {
+  "from": 6900.01,
+  "to": 7000.0,
+  "employer": 840.0,
+  "employee": 770.0,
+  "nil": false
+ },
+ {
+  "from": 7000.01,
+  "to": 7100.0,
+  "employer": 852.0,
+  "employee": 781.0,
+  "nil": false
+ },
+ {
+  "from": 7100.01,
+  "to": 7200.0,
+  "employer": 864.0,
+  "employee": 792.0,
+  "nil": false
+ },
+ {
+  "from": 7200.01,
+  "to": 7300.0,
+  "employer": 876.0,
+  "employee": 803.0,
+  "nil": false
+ },
+ {
+  "from": 7300.01,
+  "to": 7400.0,
+  "employer": 888.0,
+  "employee": 814.0,
+  "nil": false
+ },
+ {
+  "from": 7400.01,
+  "to": 7500.0,
+  "employer": 900.0,
+  "employee": 825.0,
+  "nil": false
+ },
+ {
+  "from": 7500.01,
+  "to": 7600.0,
+  "employer": 912.0,
+  "employee": 836.0,
+  "nil": false
+ },
+ {
+  "from": 7600.01,
+  "to": 7700.0,
+  "employer": 924.0,
+  "employee": 847.0,
+  "nil": false
+ },
+ {
+  "from": 7700.01,
+  "to": 7800.0,
+  "employer": 936.0,
+  "employee": 858.0,
+  "nil": false
+ },
+ {
+  "from": 7800.01,
+  "to": 7900.0,
+  "employer": 948.0,
+  "employee": 869.0,
+  "nil": false
+ },
+ {
+  "from": 7900.01,
+  "to": 8000.0,
+  "employer": 960.0,
+  "employee": 880.0,
+  "nil": false
+ },
+ {
+  "from": 8000.01,
+  "to": 8100.0,
+  "employer": 972.0,
+  "employee": 891.0,
+  "nil": false
+ },
+ {
+  "from": 8100.01,
+  "to": 8200.0,
+  "employer": 984.0,
+  "employee": 902.0,
+  "nil": false
+ },
+ {
+  "from": 8200.01,
+  "to": 8300.0,
+  "employer": 996.0,
+  "employee": 913.0,
+  "nil": false
+ },
+ {
+  "from": 8300.01,
+  "to": 8400.0,
+  "employer": 1008.0,
+  "employee": 924.0,
+  "nil": false
+ },
+ {
+  "from": 8400.01,
+  "to": 8500.0,
+  "employer": 1020.0,
+  "employee": 935.0,
+  "nil": false
+ },
+ {
+  "from": 8500.01,
+  "to": 8600.0,
+  "employer": 1032.0,
+  "employee": 946.0,
+  "nil": false
+ },
+ {
+  "from": 8600.01,
+  "to": 8700.0,
+  "employer": 1044.0,
+  "employee": 957.0,
+  "nil": false
+ },
+ {
+  "from": 8700.01,
+  "to": 8800.0,
+  "employer": 1056.0,
+  "employee": 968.0,
+  "nil": false
+ },
+ {
+  "from": 8800.01,
+  "to": 8900.0,
+  "employer": 1068.0,
+  "employee": 979.0,
+  "nil": false
+ },
+ {
+  "from": 8900.01,
+  "to": 9000.0,
+  "employer": 1080.0,
+  "employee": 990.0,
+  "nil": false
+ },
+ {
+  "from": 9000.01,
+  "to": 9100.0,
+  "employer": 1092.0,
+  "employee": 1001.0,
+  "nil": false
+ },
+ {
+  "from": 9100.01,
+  "to": 9200.0,
+  "employer": 1104.0,
+  "employee": 1012.0,
+  "nil": false
+ },
+ {
+  "from": 9200.01,
+  "to": 9300.0,
+  "employer": 1116.0,
+  "employee": 1023.0,
+  "nil": false
+ },
+ {
+  "from": 9300.01,
+  "to": 9400.0,
+  "employer": 1128.0,
+  "employee": 1034.0,
+  "nil": false
+ },
+ {
+  "from": 9400.01,
+  "to": 9500.0,
+  "employer": 1140.0,
+  "employee": 1045.0,
+  "nil": false
+ },
+ {
+  "from": 9500.01,
+  "to": 9600.0,
+  "employer": 1152.0,
+  "employee": 1056.0,
+  "nil": false
+ },
+ {
+  "from": 9600.01,
+  "to": 9700.0,
+  "employer": 1164.0,
+  "employee": 1067.0,
+  "nil": false
+ },
+ {
+  "from": 9700.01,
+  "to": 9800.0,
+  "employer": 1176.0,
+  "employee": 1078.0,
+  "nil": false
+ },
+ {
+  "from": 9800.01,
+  "to": 9900.0,
+  "employer": 1188.0,
+  "employee": 1089.0,
+  "nil": false
+ },
+ {
+  "from": 9900.01,
+  "to": 10000.0,
+  "employer": 1200.0,
+  "employee": 1100.0,
+  "nil": false
+ },
+ {
+  "from": 10000.01,
+  "to": 10100.0,
+  "employer": 1212.0,
+  "employee": 1111.0,
+  "nil": false
+ },
+ {
+  "from": 10100.01,
+  "to": 10200.0,
+  "employer": 1224.0,
+  "employee": 1122.0,
+  "nil": false
+ },
+ {
+  "from": 10200.01,
+  "to": 10300.0,
+  "employer": 1236.0,
+  "employee": 1133.0,
+  "nil": false
+ },
+ {
+  "from": 10300.01,
+  "to": 10400.0,
+  "employer": 1248.0,
+  "employee": 1144.0,
+  "nil": false
+ },
+ {
+  "from": 10400.01,
+  "to": 10500.0,
+  "employer": 1260.0,
+  "employee": 1155.0,
+  "nil": false
+ },
+ {
+  "from": 10500.01,
+  "to": 10600.0,
+  "employer": 1272.0,
+  "employee": 1166.0,
+  "nil": false
+ },
+ {
+  "from": 10600.01,
+  "to": 10700.0,
+  "employer": 1284.0,
+  "employee": 1177.0,
+  "nil": false
+ },
+ {
+  "from": 10700.01,
+  "to": 10800.0,
+  "employer": 1296.0,
+  "employee": 1188.0,
+  "nil": false
+ },
+ {
+  "from": 10800.01,
+  "to": 10900.0,
+  "employer": 1308.0,
+  "employee": 1199.0,
+  "nil": false
+ },
+ {
+  "from": 10900.01,
+  "to": 11000.0,
+  "employer": 1320.0,
+  "employee": 1210.0,
+  "nil": false
+ },
+ {
+  "from": 11000.01,
+  "to": 11100.0,
+  "employer": 1332.0,
+  "employee": 1221.0,
+  "nil": false
+ },
+ {
+  "from": 11100.01,
+  "to": 11200.0,
+  "employer": 1344.0,
+  "employee": 1232.0,
+  "nil": false
+ },
+ {
+  "from": 11200.01,
+  "to": 11300.0,
+  "employer": 1356.0,
+  "employee": 1243.0,
+  "nil": false
+ },
+ {
+  "from": 11300.01,
+  "to": 11400.0,
+  "employer": 1368.0,
+  "employee": 1254.0,
+  "nil": false
+ },
+ {
+  "from": 11400.01,
+  "to": 11500.0,
+  "employer": 1380.0,
+  "employee": 1265.0,
+  "nil": false
+ },
+ {
+  "from": 11500.01,
+  "to": 11600.0,
+  "employer": 1392.0,
+  "employee": 1276.0,
+  "nil": false
+ },
+ {
+  "from": 11600.01,
+  "to": 11700.0,
+  "employer": 1404.0,
+  "employee": 1287.0,
+  "nil": false
+ },
+ {
+  "from": 11700.01,
+  "to": 11800.0,
+  "employer": 1416.0,
+  "employee": 1298.0,
+  "nil": false
+ },
+ {
+  "from": 11800.01,
+  "to": 11900.0,
+  "employer": 1428.0,
+  "employee": 1309.0,
+  "nil": false
+ },
+ {
+  "from": 11900.01,
+  "to": 12000.0,
+  "employer": 1440.0,
+  "employee": 1320.0,
+  "nil": false
+ },
+ {
+  "from": 12000.01,
+  "to": 12100.0,
+  "employer": 1452.0,
+  "employee": 1331.0,
+  "nil": false
+ },
+ {
+  "from": 12100.01,
+  "to": 12200.0,
+  "employer": 1464.0,
+  "employee": 1342.0,
+  "nil": false
+ },
+ {
+  "from": 12200.01,
+  "to": 12300.0,
+  "employer": 1476.0,
+  "employee": 1353.0,
+  "nil": false
+ },
+ {
+  "from": 12300.01,
+  "to": 12400.0,
+  "employer": 1488.0,
+  "employee": 1364.0,
+  "nil": false
+ },
+ {
+  "from": 12400.01,
+  "to": 12500.0,
+  "employer": 1500.0,
+  "employee": 1375.0,
+  "nil": false
+ },
+ {
+  "from": 12500.01,
+  "to": 12600.0,
+  "employer": 1512.0,
+  "employee": 1386.0,
+  "nil": false
+ },
+ {
+  "from": 12600.01,
+  "to": 12700.0,
+  "employer": 1524.0,
+  "employee": 1397.0,
+  "nil": false
+ },
+ {
+  "from": 12700.01,
+  "to": 12800.0,
+  "employer": 1536.0,
+  "employee": 1408.0,
+  "nil": false
+ },
+ {
+  "from": 12800.01,
+  "to": 12900.0,
+  "employer": 1548.0,
+  "employee": 1419.0,
+  "nil": false
+ },
+ {
+  "from": 12900.01,
+  "to": 13000.0,
+  "employer": 1560.0,
+  "employee": 1430.0,
+  "nil": false
+ },
+ {
+  "from": 13000.01,
+  "to": 13100.0,
+  "employer": 1572.0,
+  "employee": 1441.0,
+  "nil": false
+ },
+ {
+  "from": 13100.01,
+  "to": 13200.0,
+  "employer": 1584.0,
+  "employee": 1452.0,
+  "nil": false
+ },
+ {
+  "from": 13200.01,
+  "to": 13300.0,
+  "employer": 1596.0,
+  "employee": 1463.0,
+  "nil": false
+ },
+ {
+  "from": 13300.01,
+  "to": 13400.0,
+  "employer": 1608.0,
+  "employee": 1474.0,
+  "nil": false
+ },
+ {
+  "from": 13400.01,
+  "to": 13500.0,
+  "employer": 1620.0,
+  "employee": 1485.0,
+  "nil": false
+ },
+ {
+  "from": 13500.01,
+  "to": 13600.0,
+  "employer": 1632.0,
+  "employee": 1496.0,
+  "nil": false
+ },
+ {
+  "from": 13600.01,
+  "to": 13700.0,
+  "employer": 1644.0,
+  "employee": 1507.0,
+  "nil": false
+ },
+ {
+  "from": 13700.01,
+  "to": 13800.0,
+  "employer": 1656.0,
+  "employee": 1518.0,
+  "nil": false
+ },
+ {
+  "from": 13800.01,
+  "to": 13900.0,
+  "employer": 1668.0,
+  "employee": 1529.0,
+  "nil": false
+ },
+ {
+  "from": 13900.01,
+  "to": 14000.0,
+  "employer": 1680.0,
+  "employee": 1540.0,
+  "nil": false
+ },
+ {
+  "from": 14000.01,
+  "to": 14100.0,
+  "employer": 1692.0,
+  "employee": 1551.0,
+  "nil": false
+ },
+ {
+  "from": 14100.01,
+  "to": 14200.0,
+  "employer": 1704.0,
+  "employee": 1562.0,
+  "nil": false
+ },
+ {
+  "from": 14200.01,
+  "to": 14300.0,
+  "employer": 1716.0,
+  "employee": 1573.0,
+  "nil": false
+ },
+ {
+  "from": 14300.01,
+  "to": 14400.0,
+  "employer": 1728.0,
+  "employee": 1584.0,
+  "nil": false
+ },
+ {
+  "from": 14400.01,
+  "to": 14500.0,
+  "employer": 1740.0,
+  "employee": 1595.0,
+  "nil": false
+ },
+ {
+  "from": 14500.01,
+  "to": 14600.0,
+  "employer": 1752.0,
+  "employee": 1606.0,
+  "nil": false
+ },
+ {
+  "from": 14600.01,
+  "to": 14700.0,
+  "employer": 1764.0,
+  "employee": 1617.0,
+  "nil": false
+ },
+ {
+  "from": 14700.01,
+  "to": 14800.0,
+  "employer": 1776.0,
+  "employee": 1628.0,
+  "nil": false
+ },
+ {
+  "from": 14800.01,
+  "to": 14900.0,
+  "employer": 1788.0,
+  "employee": 1639.0,
+  "nil": false
+ },
+ {
+  "from": 14900.01,
+  "to": 15000.0,
+  "employer": 1800.0,
+  "employee": 1650.0,
+  "nil": false
+ },
+ {
+  "from": 15000.01,
+  "to": 15100.0,
+  "employer": 1812.0,
+  "employee": 1661.0,
+  "nil": false
+ },
+ {
+  "from": 15100.01,
+  "to": 15200.0,
+  "employer": 1824.0,
+  "employee": 1672.0,
+  "nil": false
+ },
+ {
+  "from": 15200.01,
+  "to": 15300.0,
+  "employer": 1836.0,
+  "employee": 1683.0,
+  "nil": false
+ },
+ {
+  "from": 15300.01,
+  "to": 15400.0,
+  "employer": 1848.0,
+  "employee": 1694.0,
+  "nil": false
+ },
+ {
+  "from": 15400.01,
+  "to": 15500.0,
+  "employer": 1860.0,
+  "employee": 1705.0,
+  "nil": false
+ },
+ {
+  "from": 15500.01,
+  "to": 15600.0,
+  "employer": 1872.0,
+  "employee": 1716.0,
+  "nil": false
+ },
+ {
+  "from": 15600.01,
+  "to": 15700.0,
+  "employer": 1884.0,
+  "employee": 1727.0,
+  "nil": false
+ },
+ {
+  "from": 15700.01,
+  "to": 15800.0,
+  "employer": 1896.0,
+  "employee": 1738.0,
+  "nil": false
+ },
+ {
+  "from": 15800.01,
+  "to": 15900.0,
+  "employer": 1908.0,
+  "employee": 1749.0,
+  "nil": false
+ },
+ {
+  "from": 15900.01,
+  "to": 16000.0,
+  "employer": 1920.0,
+  "employee": 1760.0,
+  "nil": false
+ },
+ {
+  "from": 16000.01,
+  "to": 16100.0,
+  "employer": 1932.0,
+  "employee": 1771.0,
+  "nil": false
+ },
+ {
+  "from": 16100.01,
+  "to": 16200.0,
+  "employer": 1944.0,
+  "employee": 1782.0,
+  "nil": false
+ },
+ {
+  "from": 16200.01,
+  "to": 16300.0,
+  "employer": 1956.0,
+  "employee": 1793.0,
+  "nil": false
+ },
+ {
+  "from": 16300.01,
+  "to": 16400.0,
+  "employer": 1968.0,
+  "employee": 1804.0,
+  "nil": false
+ },
+ {
+  "from": 16400.01,
+  "to": 16500.0,
+  "employer": 1980.0,
+  "employee": 1815.0,
+  "nil": false
+ },
+ {
+  "from": 16500.01,
+  "to": 16600.0,
+  "employer": 1992.0,
+  "employee": 1826.0,
+  "nil": false
+ },
+ {
+  "from": 16600.01,
+  "to": 16700.0,
+  "employer": 2004.0,
+  "employee": 1837.0,
+  "nil": false
+ },
+ {
+  "from": 16700.01,
+  "to": 16800.0,
+  "employer": 2016.0,
+  "employee": 1848.0,
+  "nil": false
+ },
+ {
+  "from": 16800.01,
+  "to": 16900.0,
+  "employer": 2028.0,
+  "employee": 1859.0,
+  "nil": false
+ },
+ {
+  "from": 16900.01,
+  "to": 17000.0,
+  "employer": 2040.0,
+  "employee": 1870.0,
+  "nil": false
+ },
+ {
+  "from": 17000.01,
+  "to": 17100.0,
+  "employer": 2052.0,
+  "employee": 1881.0,
+  "nil": false
+ },
+ {
+  "from": 17100.01,
+  "to": 17200.0,
+  "employer": 2064.0,
+  "employee": 1892.0,
+  "nil": false
+ },
+ {
+  "from": 17200.01,
+  "to": 17300.0,
+  "employer": 2076.0,
+  "employee": 1903.0,
+  "nil": false
+ },
+ {
+  "from": 17300.01,
+  "to": 17400.0,
+  "employer": 2088.0,
+  "employee": 1914.0,
+  "nil": false
+ },
+ {
+  "from": 17400.01,
+  "to": 17500.0,
+  "employer": 2100.0,
+  "employee": 1925.0,
+  "nil": false
+ },
+ {
+  "from": 17500.01,
+  "to": 17600.0,
+  "employer": 2112.0,
+  "employee": 1936.0,
+  "nil": false
+ },
+ {
+  "from": 17600.01,
+  "to": 17700.0,
+  "employer": 2124.0,
+  "employee": 1947.0,
+  "nil": false
+ },
+ {
+  "from": 17700.01,
+  "to": 17800.0,
+  "employer": 2136.0,
+  "employee": 1958.0,
+  "nil": false
+ },
+ {
+  "from": 17800.01,
+  "to": 17900.0,
+  "employer": 2148.0,
+  "employee": 1969.0,
+  "nil": false
+ },
+ {
+  "from": 17900.01,
+  "to": 18000.0,
+  "employer": 2160.0,
+  "employee": 1980.0,
+  "nil": false
+ },
+ {
+  "from": 18000.01,
+  "to": 18100.0,
+  "employer": 2172.0,
+  "employee": 1991.0,
+  "nil": false
+ },
+ {
+  "from": 18100.01,
+  "to": 18200.0,
+  "employer": 2184.0,
+  "employee": 2002.0,
+  "nil": false
+ },
+ {
+  "from": 18200.01,
+  "to": 18300.0,
+  "employer": 2196.0,
+  "employee": 2013.0,
+  "nil": false
+ },
+ {
+  "from": 18300.01,
+  "to": 18400.0,
+  "employer": 2208.0,
+  "employee": 2024.0,
+  "nil": false
+ },
+ {
+  "from": 18400.01,
+  "to": 18500.0,
+  "employer": 2220.0,
+  "employee": 2035.0,
+  "nil": false
+ },
+ {
+  "from": 18500.01,
+  "to": 18600.0,
+  "employer": 2232.0,
+  "employee": 2046.0,
+  "nil": false
+ },
+ {
+  "from": 18600.01,
+  "to": 18700.0,
+  "employer": 2244.0,
+  "employee": 2057.0,
+  "nil": false
+ },
+ {
+  "from": 18700.01,
+  "to": 18800.0,
+  "employer": 2256.0,
+  "employee": 2068.0,
+  "nil": false
+ },
+ {
+  "from": 18800.01,
+  "to": 18900.0,
+  "employer": 2268.0,
+  "employee": 2079.0,
+  "nil": false
+ },
+ {
+  "from": 18900.01,
+  "to": 19000.0,
+  "employer": 2280.0,
+  "employee": 2090.0,
+  "nil": false
+ },
+ {
+  "from": 19000.01,
+  "to": 19100.0,
+  "employer": 2292.0,
+  "employee": 2101.0,
+  "nil": false
+ },
+ {
+  "from": 19100.01,
+  "to": 19200.0,
+  "employer": 2304.0,
+  "employee": 2112.0,
+  "nil": false
+ },
+ {
+  "from": 19200.01,
+  "to": 19300.0,
+  "employer": 2316.0,
+  "employee": 2123.0,
+  "nil": false
+ },
+ {
+  "from": 19300.01,
+  "to": 19400.0,
+  "employer": 2328.0,
+  "employee": 2134.0,
+  "nil": false
+ },
+ {
+  "from": 19400.01,
+  "to": 19500.0,
+  "employer": 2340.0,
+  "employee": 2145.0,
+  "nil": false
+ },
+ {
+  "from": 19500.01,
+  "to": 19600.0,
+  "employer": 2352.0,
+  "employee": 2156.0,
+  "nil": false
+ },
+ {
+  "from": 19600.01,
+  "to": 19700.0,
+  "employer": 2364.0,
+  "employee": 2167.0,
+  "nil": false
+ },
+ {
+  "from": 19700.01,
+  "to": 19800.0,
+  "employer": 2376.0,
+  "employee": 2178.0,
+  "nil": false
+ },
+ {
+  "from": 19800.01,
+  "to": 19900.0,
+  "employer": 2388.0,
+  "employee": 2189.0,
+  "nil": false
+ },
+ {
+  "from": 19900.01,
+  "to": 20000.0,
+  "employer": 2400.0,
+  "employee": 2200.0,
+  "nil": false
+ }
+]

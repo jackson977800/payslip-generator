@@ -1,0 +1,72 @@
+{
+ "year": 2025,
+ "month": 1,
+ "employees": [
+  {
+   "name": "JOHN",
+   "nric": "111111-11-1111",
+   "epf_no": "111111111",
+   "job_title": "Staff 1",
+   "department": "What Department",
+   "employee_no": "AAA0001",
+   "bank_name": "BANK 11111",
+   "bank_account": "1-1-1-1-1-1",
+   "socso_no": "",
+   "eis_no": "",
+   "basic_salary": 1500.0,
+   "payroll": {
+    "basic_salary": 1500.0,
+    "unpaid_leave": 10.0,
+    "item_a": 21.63,
+    "item_b": 20.0,
+    "item_c": 60.0,
+    "pcb": 2.0,
+    "advance": 340.0
+   }
+  },
+  {
+   "name": "ALISON",
+   "nric": "222222-22-2222",
+   "epf_no": "222222222",
+   "job_title": "Staff 2",
+   "department": "Which Department",
+   "employee_no": "AAA0002",
+   "bank_name": "BANK 22222",
+   "bank_account": "2-2-2-2-2-2",
+   "socso_no": "",
+   "eis_no": "",
+   "basic_salary": 2000.0,
+   "payroll": {
+    "basic_salary": 2000.0,
+    "unpaid_leave": 20.0,
+    "item_a": 80.0,
+    "item_b": 60.0,
+    "item_c": 50.0,
+    "pcb": 4.0,
+    "advance": 50.0
+   }
+  },
+  {
+   "name": "PATRICIA",
+   "nric": "333333-33-3333",
+   "epf_no": "333333333",
+   "job_title": "Staff 3",
+   "department": "Who Department",
+   "employee_no": "AAA0003",
+   "bank_name": "BANK 33333",
+   "bank_account": "3-3-3-3-3-3",
+   "socso_no": "",
+   "eis_no": "",
+   "basic_salary": 2300.0,
+   "payroll": {
+    "basic_salary": 2300.0,
+    "unpaid_leave": 30.0,
+    "item_a": 90.0,
+    "item_b": 80.0,
+    "item_c": 100.0,
+    "pcb": 6.0,
+    "advance": 400.0
+   }
+  }
+ ]
+}

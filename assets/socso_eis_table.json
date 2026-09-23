@@ -1,0 +1,522 @@
+[
+ {
+  "from": 0.01,
+  "to": 30.0,
+  "socso_employer": 0.4,
+  "socso_employee": 0.3,
+  "eis_employer": 0.05,
+  "eis_employee": 0.05
+ },
+ {
+  "from": 30.01,
+  "to": 50.0,
+  "socso_employer": 0.7,
+  "socso_employee": 0.5,
+  "eis_employer": 0.1,
+  "eis_employee": 0.1
+ },
+ {
+  "from": 50.01,
+  "to": 70.0,
+  "socso_employer": 1.1,
+  "socso_employee": 0.8,
+  "eis_employer": 0.15,
+  "eis_employee": 0.15
+ },
+ {
+  "from": 70.01,
+  "to": 100.0,
+  "socso_employer": 1.5,
+  "socso_employee": 1.05,
+  "eis_employer": 0.2,
+  "eis_employee": 0.2
+ },
+ {
+  "from": 100.01,
+  "to": 140.0,
+  "socso_employer": 2.1,
+  "socso_employee": 1.5,
+  "eis_employer": 0.25,
+  "eis_employee": 0.25
+ },
+ {
+  "from": 140.01,
+  "to": 200.0,
+  "socso_employer": 2.95,
+  "socso_employee": 2.1,
+  "eis_employer": 0.35,
+  "eis_employee": 0.35
+ },
+ {
+  "from": 200.01,
+  "to": 300.0,
+  "socso_employer": 4.35,
+  "socso_employee": 3.1,
+  "eis_employer": 0.5,
+  "eis_employee": 0.5
+ },
+ {
+  "from": 300.01,
+  "to": 400.0,
+  "socso_employer": 6.15,
+  "socso_employee": 4.4,
+  "eis_employer": 0.7,
+  "eis_employee": 0.7
+ },
+ {
+  "from": 400.01,
+  "to": 500.0,
+  "socso_employer": 7.85,
+  "socso_employee": 5.6,
+  "eis_employer": 0.9,
+  "eis_employee": 0.9
+ },
+ {
+  "from": 500.01,
+  "to": 600.0,
+  "socso_employer": 9.65,
+  "socso_employee": 6.9,
+  "eis_employer": 1.1,
+  "eis_employee": 1.1
+ },
+ {
+  "from": 600.01,
+  "to": 700.0,
+  "socso_employer": 11.35,
+  "socso_employee": 8.1,
+  "eis_employer": 1.3,
+  "eis_employee": 1.3
+ },
+ {
+  "from": 700.01,
+  "to": 800.0,
+  "socso_employer": 13.15,
+  "socso_employee": 9.4,
+  "eis_employer": 1.5,
+  "eis_employee": 1.5
+ },
+ {
+  "from": 800.01,
+  "to": 900.0,
+  "socso_employer": 14.85,
+  "socso_employee": 10.6,
+  "eis_employer": 1.7,
+  "eis_employee": 1.7
+ },
+ {
+  "from": 900.01,
+  "to": 1000.0,
+  "socso_employer": 16.65,
+  "socso_employee": 11.9,
+  "eis_employer": 1.9,
+  "eis_employee": 1.9
+ },
+ {
+  "from": 1000.01,
+  "to": 1100.0,
+  "socso_employer": 18.35,
+  "socso_employee": 13.1,
+  "eis_employer": 2.1,
+  "eis_employee": 2.1
+ },
+ {
+  "from": 1100.01,
+  "to": 1200.0,
+  "socso_employer": 20.15,
+  "socso_employee": 14.4,
+  "eis_employer": 2.3,
+  "eis_employee": 2.3
+ },
+ {
+  "from": 1200.01,
+  "to": 1300.0,
+  "socso_employer": 21.85,
+  "socso_employee": 15.6,
+  "eis_employer": 2.5,
+  "eis_employee": 2.5
+ },
+ {
+  "from": 1300.01,
+  "to": 1400.0,
+  "socso_employer": 23.65,
+  "socso_employee": 16.9,
+  "eis_employer": 2.7,
+  "eis_employee": 2.7
+ },
+ {
+  "from": 1400.01,
+  "to": 1500.0,
+  "socso_employer": 25.35,
+  "socso_employee": 18.1,
+  "eis_employer": 2.9,
+  "eis_employee": 2.9
+ },
+ {
+  "from": 1500.01,
+  "to": 1600.0,
+  "socso_employer": 27.15,
+  "socso_employee": 19.4,
+  "eis_employer": 3.1,
+  "eis_employee": 3.1
+ },
+ {
+  "from": 1600.01,
+  "to": 1700.0,
+  "socso_employer": 28.85,
+  "socso_employee": 20.6,
+  "eis_employer": 3.3,
+  "eis_employee": 3.3
+ },
+ {
+  "from": 1700.01,
+  "to": 1800.0,
+  "socso_employer": 30.65,
+  "socso_employee": 21.9,
+  "eis_employer": 3.5,
+  "eis_employee": 3.5
+ },
+ {
+  "from": 1800.01,
+  "to": 1900.0,
+  "socso_employer": 32.35,
+  "socso_employee": 23.1,
+  "eis_employer": 3.7,
+  "eis_employee": 3.7
+ },
+ {
+  "from": 1900.01,
+  "to": 2000.0,
+  "socso_employer": 34.15,
+  "socso_employee": 24.4,
+  "eis_employer": 3.9,
+  "eis_employee": 3.9
+ },
+ {
+  "from": 2000.01,
+  "to": 2100.0,
+  "socso_employer": 35.85,
+  "socso_employee": 25.6,
+  "eis_employer": 4.1,
+  "eis_employee": 4.1
+ },
+ {
+  "from": 2100.01,
+  "to": 2200.0,
+  "socso_employer": 37.65,
+  "socso_employee": 26.9,
+  "eis_employer": 4.3,
+  "eis_employee": 4.3
+ },
+ {
+  "from": 2200.01,
+  "to": 2300.0,
+  "socso_employer": 39.35,
+  "socso_employee": 28.1,
+  "eis_employer": 4.5,
+  "eis_employee": 4.5
+ },
+ {
+  "from": 2300.01,
+  "to": 2400.0,
+  "socso_employer": 41.15,
+  "socso_employee": 29.4,
+  "eis_employer": 4.7,
+  "eis_employee": 4.7
+ },
+ {
+  "from": 2400.01,
+  "to": 2500.0,
+  "socso_employer": 42.85,
+  "socso_employee": 30.6,
+  "eis_employer": 4.9,
+  "eis_employee": 4.9
+ },
+ {
+  "from": 2500.01,
+  "to": 2600.0,
+  "socso_employer": 44.65,
+  "socso_employee": 31.9,
+  "eis_employer": 5.1,
+  "eis_employee": 5.1
+ },
+ {
+  "from": 2600.01,
+  "to": 2700.0,
+  "socso_employer": 46.35,
+  "socso_employee": 33.1,
+  "eis_employer": 5.3,
+  "eis_employee": 5.3
+ },
+ {
+  "from": 2700.01,
+  "to": 2800.0,
+  "socso_employer": 48.15,
+  "socso_employee": 34.4,
+  "eis_employer": 5.5,
+  "eis_employee": 5.5
+ },
+ {
+  "from": 2800.01,
+  "to": 2900.0,
+  "socso_employer": 49.85,
+  "socso_employee": 35.6,
+  "eis_employer": 5.7,
+  "eis_employee": 5.7
+ },
+ {
+  "from": 2900.01,
+  "to": 3000.0,
+  "socso_employer": 51.65,
+  "socso_employee": 36.9,
+  "eis_employer": 5.9,
+  "eis_employee": 5.9
+ },
+ {
+  "from": 3000.01,
+  "to": 3100.0,
+  "socso_employer": 53.35,
+  "socso_employee": 38.1,
+  "eis_employer": 6.1,
+  "eis_employee": 6.1
+ },
+ {
+  "from": 3100.01,
+  "to": 3200.0,
+  "socso_employer": 55.15,
+  "socso_employee": 39.4,
+  "eis_employer": 6.3,
+  "eis_employee": 6.3
+ },
+ {
+  "from": 3200.01,
+  "to": 3300.0,
+  "socso_employer": 56.85,
+  "socso_employee": 40.6,
+  "eis_employer": 6.5,
+  "eis_employee": 6.5
+ },
+ {
+  "from": 3300.01,
+  "to": 3400.0,
+  "socso_employer": 58.65,
+  "socso_employee": 41.9,
+  "eis_employer": 6.7,
+  "eis_employee": 6.7
+ },
+ {
+  "from": 3400.01,
+  "to": 3500.0,
+  "socso_employer": 60.35,
+  "socso_employee": 43.1,
+  "eis_employer": 6.9,
+  "eis_employee": 6.9
+ },
+ {
+  "from": 3500.01,
+  "to": 3600.0,
+  "socso_employer": 62.15,
+  "socso_employee": 44.4,
+  "eis_employer": 7.1,
+  "eis_employee": 7.1
+ },
+ {
+  "from": 3600.01,
+  "to": 3700.0,
+  "socso_employer": 63.85,
+  "socso_employee": 45.6,
+  "eis_employer": 7.3,
+  "eis_employee": 7.3
+ },
+ {
+  "from": 3700.01,
+  "to": 3800.0,
+  "socso_employer": 65.65,
+  "socso_employee": 46.9,
+  "eis_employer": 7.5,
+  "eis_employee": 7.5
+ },
+ {
+  "from": 3800.01,
+  "to": 3900.0,
+  "socso_employer": 67.35,
+  "socso_employee": 48.1,
+  "eis_employer": 7.7,
+  "eis_employee": 7.7
+ },
+ {
+  "from": 3900.01,
+  "to": 4000.0,
+  "socso_employer": 69.15,
+  "socso_employee": 49.4,
+  "eis_employer": 7.9,
+  "eis_employee": 7.9
+ },
+ {
+  "from": 4000.01,
+  "to": 4100.0,
+  "socso_employer": 70.85,
+  "socso_employee": 50.6,
+  "eis_employer": 8.1,
+  "eis_employee": 8.1
+ },
+ {
+  "from": 4100.01,
+  "to": 4200.0,
+  "socso_employer": 72.65,
+  "socso_employee": 51.9,
+  "eis_employer": 8.3,
+  "eis_employee": 8.3
+ },
+ {
+  "from": 4200.01,
+  "to": 4300.0,
+  "socso_employer": 74.35,
+  "socso_employee": 53.1,
+  "eis_employer": 8.5,
+  "eis_employee": 8.5
+ },
+ {
+  "from": 4300.01,
+  "to": 4400.0,
+  "socso_employer": 76.15,
+  "socso_employee": 54.4,
+  "eis_employer": 8.7,
+  "eis_employee": 8.7
+ },
+ {
+  "from": 4400.01,
+  "to": 4500.0,
+  "socso_employer": 77.85,
+  "socso_employee": 55.6,
+  "eis_employer": 8.9,
+  "eis_employee": 8.9
+ },
+ {
+  "from": 4500.01,
+  "to": 4600.0,
+  "socso_employer": 79.65,
+  "socso_employee": 56.9,
+  "eis_employer": 9.1,
+  "eis_employee": 9.1
+ },
+ {
+  "from": 4600.01,
+  "to": 4700.0,
+  "socso_employer": 81.35,
+  "socso_employee": 58.1,
+  "eis_employer": 9.3,
+  "eis_employee": 9.3
+ },
+ {
+  "from": 4700.01,
+  "to": 4800.0,
+  "socso_employer": 83.15,
+  "socso_employee": 59.4,
+  "eis_employer": 9.5,
+  "eis_employee": 9.5
+ },
+ {
+  "from": 4800.01,
+  "to": 4900.0,
+  "socso_employer": 84.85,
+  "socso_employee": 60.6,
+  "eis_employer": 9.7,
+  "eis_employee": 9.7
+ },
+ {
+  "from": 4900.01,
+  "to": 5000.0,
+  "socso_employer": 86.65,
+  "socso_employee": 61.9,
+  "eis_employer": 9.9,
+  "eis_employee": 9.9
+ },
+ {
+  "from": 5000.01,
+  "to": 5100.0,
+  "socso_employer": 88.35,
+  "socso_employee": 63.1,
+  "eis_employer": 10.1,
+  "eis_employee": 10.1
+ },
+ {
+  "from": 5100.01,
+  "to": 5200.0,
+  "socso_employer": 90.15,
+  "socso_employee": 64.4,
+  "eis_employer": 10.3,
+  "eis_employee": 10.3
+ },
+ {
+  "from": 5200.01,
+  "to": 5300.0,
+  "socso_employer": 91.85,
+  "socso_employee": 65.6,
+  "eis_employer": 10.5,
+  "eis_employee": 10.5
+ },
+ {
+  "from": 5300.01,
+  "to": 5400.0,
+  "socso_employer": 93.65,
+  "socso_employee": 66.9,
+  "eis_employer": 10.7,
+  "eis_employee": 10.7
+ },
+ {
+  "from": 5400.01,
+  "to": 5500.0,
+  "socso_employer": 95.35,
+  "socso_employee": 68.1,
+  "eis_employer": 10.9,
+  "eis_employee": 10.9
+ },
+ {
+  "from": 5500.01,
+  "to": 5600.0,
+  "socso_employer": 97.15,
+  "socso_employee": 69.4,
+  "eis_employer": 11.1,
+  "eis_employee": 11.1
+ },
+ {
+  "from": 5600.01,
+  "to": 5700.0,
+  "socso_employer": 98.85,
+  "socso_employee": 70.6,
+  "eis_employer": 11.3,
+  "eis_employee": 11.3
+ },
+ {
+  "from": 5700.01,
+  "to": 5800.0,
+  "socso_employer": 100.65,
+  "socso_employee": 71.9,
+  "eis_employer": 11.5,
+  "eis_employee": 11.5
+ },
+ {
+  "from": 5800.01,
+  "to": 5900.0,
+  "socso_employer": 102.35,
+  "socso_employee": 73.1,
+  "eis_employer": 11.7,
+  "eis_employee": 11.7
+ },
+ {
+  "from": 5900.01,
+  "to": 6000.0,
+  "socso_employer": 104.15,
+  "socso_employee": 74.4,
+  "eis_employer": 11.9,
+  "eis_employee": 11.9
+ },
+ {
+  "from": 6000.01,
+  "to": null,
+  "socso_employer": 104.15,
+  "socso_employee": 74.4,
+  "eis_employer": 11.9,
+  "eis_employee": 11.9
+ }
+]

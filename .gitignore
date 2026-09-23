@@ -1,0 +1,67 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Widget Preview related
+.widget_preview/
+
+# ------------------------------------------------------------------
+# 签名密钥 —— 绝对不能提交。
+# android/.gitignore 已覆盖 android/ 目录，这里再兜一层：
+# 万一有人把 keystore 或 key.properties 放到项目根目录也不会被提交。
+# ------------------------------------------------------------------
+key.properties
+*.jks
+*.keystore
+**/key.properties
+**/*.jks
+**/*.keystore
+
+# 本地数据库与生成物（含员工工资数据，属于隐私）
+*.db
+*.sqlite
+*.sqlite3
+/payslips/
+build/pdf_out/

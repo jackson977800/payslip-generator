@@ -1,0 +1,48 @@
+name: payslip_app
+description: "Payslip Generator - Malaysian payroll (EPF / SOCSO / EIS)"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # 本地数据库
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  path_provider: ^2.1.5
+
+  # 工资单 PDF / 预览 / 分享
+  pdf: ^3.11.3
+  printing: ^5.13.2
+
+  # 邮件发送（SMTP）
+  mailer: ^6.2.0
+
+  # 设置与安全存储（替代桌面版的 Windows DPAPI）
+  shared_preferences: ^2.3.3
+  flutter_secure_storage: ^9.2.4
+
+  # 数字格式化
+  intl: ^0.20.2
+
+  # MD5 —— PDF 标准安全处理器需要
+  crypto: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  # 让 SQLite 数据层能在桌面上跑测试（Android 插件在测试环境不可用）
+  sqflite_common_ffi: ^2.3.6
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/epf_table.json
+    - assets/socso_eis_table.json
+    - assets/sample_employees.json
